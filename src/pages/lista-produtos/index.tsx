@@ -160,48 +160,34 @@ export default function ProductsList({ productBr, productEn }) {
 
               <div className="listItems-group">
                 <h3>{t("produtos_subtitulo")}</h3>
-                <div className="filterItems">
-                  <div className="filterItemsForLines">
-                    <label
-                      className={
-                        filterLines.filter((obj) => obj === "Profissional")
-                          .length > 0
-                          ? "active"
-                          : "normal"
-                      }
-                      onClick={() => handleOnChangeFilterLine(["Profissional"])}
-                    >
-                      <span>Profissional</span>
-                    </label>
-                    <label
-                      className={
-                        filterLines.filter((obj) => obj === "HomeCare").length >
-                        0
-                          ? "active"
-                          : "normal"
-                      }
-                      onClick={() => handleOnChangeFilterLine(["HomeCare"])}
-                    >
-                      <span>Home Care</span>
-                    </label>
-                    <label
-                      onClick={() =>
-                        handleOnChangeFilterLine(["Profissional", "HomeCare"])
-                      }
-                      className={
-                        filterLines.filter((obj) => obj === "Profissional")
-                          .length > 0 &&
-                        filterLines.filter((obj) => obj === "HomeCare").length >
-                          0
-                          ? "active"
-                          : "normal"
-                      }
-                    >
-                      <span>Todos</span>
-                    </label>
-                  </div>
+              </div>
+            </div>
+          </div>
+          <div className="filterItems">
+            <div className="filterItemsForLines">
+              <label
+                className={
+                  filterLines.filter((obj) => obj === "Profissional").length > 0
+                    ? "active"
+                    : "normal"
+                }
+                onClick={() => handleOnChangeFilterLine(["Profissional"])}
+              >
+                <span>Profissional</span>
+              </label>
+              <label
+                className={
+                  filterLines.filter((obj) => obj === "HomeCare").length > 0
+                    ? "active"
+                    : "normal"
+                }
+                onClick={() => handleOnChangeFilterLine(["HomeCare"])}
+              >
+                <span>Home Care</span>
+              </label>
+            </div>
 
-                  {/* <button
+            {/* <button
                     style={{
                       cursor: "pointer",
                       gap: "12px",
@@ -214,9 +200,6 @@ export default function ProductsList({ productBr, productEn }) {
                     <BiFilter size={18} />
                     {t("produtos_botao_filtro")}
                   </button> */}
-                </div>
-              </div>
-            </div>
           </div>
 
           <div
