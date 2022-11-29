@@ -20,6 +20,19 @@ export default function ProductsList({ productBr, productEn }) {
   const [modal, setModal] = useState(false);
   const [formData, setFormData] = useState<any>({});
 
+  useEffect(()=>{
+    if (router.query.linha === 'homecare')
+    {
+      setTimeout(()=>{
+        setFilterLines(['HomeCare'])
+      },1000)
+    }else{
+      setTimeout(()=>{
+        setFilterLines(['Profissional'])
+      },1000)
+    }
+  },[router?.query])
+
   const isBr = i18n.language === "ptbr" ? productBr : productEn;
   const filterItems = isBr.filter(
     (obj: any) =>
@@ -135,6 +148,7 @@ export default function ProductsList({ productBr, productEn }) {
       }
     });
     setData([...newData]);
+    console.log('objeto que está virando o data',newData)
   }, [filterLines]);
 
   return (
