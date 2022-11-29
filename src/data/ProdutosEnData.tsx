@@ -61,7 +61,7 @@ export const ProdutosEnData = [
 		idproduto: 1,
 		title: 'S.O.S ULTIMATE STAGE HYDRATATION MASK',
 		descricao: 'Ideal for chemically damaged hair, it contains more than 20 moisturizing actives.  It acts as a mass replacement treatment (MRT), contains 14 amino acids, in addition to hydrolyzed keratin, contains D-panthenol, water-soluble noble silicones, natural polymers, in addition to hydrolyzed vegetables.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 8,81 – Home Care',
 		colecao: [item1],
 		imagem: item1,

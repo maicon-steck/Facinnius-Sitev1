@@ -60,7 +60,7 @@ export const ProdutosBrData = [
 		idproduto: 1,
 		title: 'S.O.S ULTIMATE STAGE MÁSCARA DE HIDRATAÇÃO',
 		descricao: 'Ideal para cabelos danificados por químicas, possui mais de 20 ativos hidratantes. Age como tratamento de reposição de massa (TRM), contém 14 aminoácidos, além de queratina hidrolisada, contém D-pantenol, silicones nobres solúveis em água, polímeros naturais, além de vegetais hidrolisados.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 250gr – Home Care',
 		colecao: [item1],
 		imagem: item1,
