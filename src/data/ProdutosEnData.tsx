@@ -267,7 +267,7 @@ export const ProdutosEnData = [
 	{
 		id: 17, // auto increment
 		idproduto: 12,
-		title: 'DESCOLOR DUST',
+		title: 'DESCOLOR DUST FREE',
 		descricao: 'The Dust Free technology prevents the powder from dispersing during application and allows high adherence of the product to the thread.  Able to lighten up to 7 tones, the Descolor Easy Facinnius, presents in its formula keratin and wheat germ, which after absorbed, hydrates and repairs the hair. Suitable for all hair types and recommended for various lightening techniques.',
 		filtros: ['Profissional'], 
 		versões: 'Version: Fl.oz 17,63 - Professional',

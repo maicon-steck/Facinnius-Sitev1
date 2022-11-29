@@ -251,7 +251,7 @@ export const ProdutosBrData = [
 	{
 		id: 17, // auto increment
 		idproduto: 12,
-		title: 'PÓ DESCOLORANTE DUST',
+		title: 'PÓ DESCOLORANTE DUST FREE',
 		descricao: 'A tecnologia Dust Free evita que o pó se disperse durante a aplicação e permite alta aderência do produto ao fio. Capaz de clarear até 7 tons, o Descolor Easy Facinnius, apresenta em sua fórmula queratina e gérmen de trigo, que após absorvido, hidrata e repara os fios. Indicado para todos os tipos de cabelos e recomendado para variadas técnicas de clareamento. INDICADO PARA AUXILIAR NA DESCOLORAÇÃO CAPILAR.',
 		filtros: ['Profissional'], 
 		versões: 'Versão: 500G - Profissional',
