@@ -11,9 +11,8 @@ export default function Privacidade() {
         <section className="quality section" id="premium">
           <div className="titulo-bg">
             <div className="titulo container">
-              <p className="font-2-l-b cor-5">{t('privacidade_subtitulo')}</p>
               <h1 className="font-1-xxl cor-0">
-              Política de Cookies <span className="cor-p1">.</span>
+              Política de Cookies 
               </h1>
             </div>
           </div>
