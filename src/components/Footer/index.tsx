@@ -17,7 +17,7 @@ export default function Footer() {
         <Link href="/" className="nav__logo"  >
           <a style={{ display: 'flex', alignItems: 'center', justifyItems: 'center', marginLeft: '-10px', marginBottom: '8px' }}>
             <Image src={logoFacinnius} alt="Logo" />
-            Facinnius.
+            Facinnius
           </a>
         </Link>
 

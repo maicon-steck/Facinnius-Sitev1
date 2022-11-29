@@ -1,14 +1,20 @@
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import { BiChevronLeft, BiChevronRight} from "react-icons/bi";
+import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
-interface PropsImages  {
+interface PropsImages {
   images: any;
-  title: string;  
-  isBorder?: boolean
+  title: string;
+  isBorder?: boolean;
   handleOnClick: () => void;
 }
 
-export function CardItem({ images, handleOnClick, title, isBorder }: PropsImages) {
+export function CardItem({
+  images,
+  handleOnClick,
+  title,
+  isBorder,
+}: PropsImages) {
   const slides = images;
   const [current, setCurrent] = useState(0);
   const length = slides?.length;
@@ -38,7 +44,7 @@ export function CardItem({ images, handleOnClick, title, isBorder }: PropsImages
     return null;
   }
   return (
-    <div className={`sliderContainer ${isBorder ? 'isBorder' : null}`}>
+    <div className={`sliderContainer ${isBorder ? "isBorder" : null}`}>
       <div className="sliderCarrosel">
         {length > 1 && (
           <>
@@ -53,21 +59,26 @@ export function CardItem({ images, handleOnClick, title, isBorder }: PropsImages
 
         {images.map((row, index) => {
           return (
-              <div
-                className={index === current ? "slideEdit active" : "slideEdit"}
-                key={index}
-                style={{ transitionDuration: '0.4s' }}
-                onClick={handleOnClick}
-              >
-                {index === current && (
-                  <img
-                    src={row.src}
-                    style={{ borderRadius: '4px 4px 0 0' }}
-                    alt="uma imagem"
-                    className="imageSlider"
-                  />
-                )}
-              </div>
+            <div
+              className={index === current ? "slideEdit active" : "slideEdit"}
+              key={index}
+              style={{ transitionDuration: "0.4s" }}
+              onClick={handleOnClick}
+            >
+              {index === current && (
+                <Image
+                  height={350}
+                  width={350}
+                  src={row.src}
+                  alt="uma imagem"
+                  className="imageSlider"
+                  style={{
+                    margin: "auto",
+                  }}
+                  objectFit={'contain'}
+                />
+              )}
+            </div>
           );
         })}
       </div>
