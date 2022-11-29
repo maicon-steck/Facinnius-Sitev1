@@ -13,7 +13,7 @@ export default function Privacidade() {
             <div className="titulo container">
               <p className="font-2-l-b cor-5">{t('privacidade_subtitulo')}</p>
               <h1 className="font-1-xxl cor-0">
-              {t('privacidade_titulo')}<span className="cor-p1">.</span>
+              Política de Cookies <span className="cor-p1">.</span>
               </h1>
             </div>
           </div>
