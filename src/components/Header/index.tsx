@@ -31,7 +31,7 @@ export default function Header() {
         <Link href="/" className="nav__logo"  >
           <a style={{ display: 'flex', alignItems: 'center', justifyItems: 'center' }}>
             <Image src={logoFacinnius} alt="Logo" />
-            Facinnius.
+            Facinnius
           </a>
         </Link>
 
