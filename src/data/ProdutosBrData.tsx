@@ -83,7 +83,7 @@ export const ProdutosBrData = [
 		idproduto: 2,
 		title: 'RECOVERY CUPUAÇU MÁSCARA DE HIDRATAÇÃO',
 		descricao: 'Possui manteiga de cupuaçu, vitaminas A e E, que promovem equilíbrio hídrico, hidratação e crescimento saudável para os fios. A máscara Recovery Cupuaçu Facinnius é excelente para o tratamento de cabelos secos, frágeis e danificados por processos químicos, pois age  profundamente na cutícula revitalizando os fios. INDICADO PARA NUTRIÇÃO CAPILAR, PARA CABELOS SECOS, FRAGEIS E CABELOS DANIFICADOS POR QUIMICAS.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 250gr – Home Care',
 		colecao: [item2],
 		imagem: item2
@@ -117,7 +117,7 @@ export const ProdutosBrData = [
 		idproduto: 3,
 		title: 'ABSOLUT DIAMOND MÁSCARA DE HIDRATAÇÃO',
 		descricao: 'Contém silicones nobres, aminoácidos, alecrim, raspas de juá, malva e babosa. Solução perfeita para cabelos opacos sem vida, pois fornece uma cobertura com brilho  diamantado para os fios. Um legítimo banho de verniz rico em silicones e aminoácidos que nutrem, hidratam e estimulam o crescimento dos cabelos, deixando-os sedosos e macios. INDICADO PARA TRATAMENTO DO COURO CABELUDO, CABELOS OPACOS E PROMOVE UM BANHO DE VERNIZ.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 250gr – Home Care',
 		colecao: [item3],
 		imagem: item3
@@ -142,7 +142,7 @@ export const ProdutosBrData = [
 		idproduto: 4,
 		title: 'BIO KERATRIX MÁSCARA DE HIDRATAÇÃO',
 		descricao: 'Contém uma quantidade maior do que geralmente é usada de D-pantenol além de queratina. Recomendada para quem procura um liso impecável e durável. Sua formulação evita o aparecimento de pontas duplas, melhora a textura dos fios e contribui para o espessamento dos cabelos, oferecendo mais força e brilho para as madeixas. INDICADO PARA HIDRATAÇÃO CAPILAR E PROMOVE LISO DURADOURO',
-		filtros: ['Home Care'],   
+		filtros: ['HomeCare'],   
 		versões: 'Versão: 250gr – Home Care',
 		colecao: [item4],
 		imagem: item4
@@ -165,7 +165,7 @@ export const ProdutosBrData = [
 		idproduto: 5,
 		title: 'MÁSCARA DE HIDRATAÇÃO INFINITY ONE GOLD',
 		descricao: 'Conta com fórmula exclusiva composta por proteínas e aminoácidos estruturais (Seina, Ácido Glutâmico e Cisteina), realizando a reparação Biomimética. Seu ativo principal ReparAge penetra profundamente na fibra capilar promovendo o aumento do diâmetro dos fios com o uso prolongado do produto. Com efeito Pro Filler que repara o envelhecimento natural dos fios deixando-os como novos, ajudando na reconstrução capilar, com antioxidante que repara, evita o desgaste e envelhecimento dos fios. Cabelo com toque de seda mantendo-os fios livres de frizz. INDICADO PARA RECONSTRUÇÃO ABSOLUTA E PROMOVE BANHO DE OURO.',
-		filtros: ['Home Care'], 
+		filtros: ['HomeCare'], 
 		versões: 'Versão: 250gr – Home Care',
 		colecao: [item5],
 		imagem: item5
@@ -289,7 +289,7 @@ export const ProdutosBrData = [
 		idproduto: 14,
 		title: 'KOLORE COLORAÇÃO',
 		descricao: 'A coloração Kolore Facinnius, com a tecnologia exclusiva K-COMPLEX, contém Óleo de Argan, Macadâmia, Algas Marinhas, Queratina, Sericina, Aloe-Vera,Vitamina-D e Pantenol, que ajudam a proteger o couro cabeludo das agressões químicas. Juntamente com a proteína da seda, proporciona máxima hidratação, sedosidade, brilho diamantado e um extra condicionamento. INDICADO PARA COLORAÇÃO CAPILAR.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 60G - Profissional',
 		colecao: [item14, item14_1],
 		imagem: item14
@@ -409,7 +409,7 @@ export const ProdutosBrData = [
 		idproduto: 24,
 		title: 'RECONSTRUÇÃO CAPILAR BIFÁSICO - INFINITY ONE',
 		descricao: 'O Infinity One Facinnius é um excelente reconstrutor capilar com ação antioxidante que repara o desgaste e envelhecimento dos fios. Possui textura aveludada e deixa um toque de seda nos cabelos, mantendo-os livres de frizz. Contém filtro protetos UVA e UVB. Além  de ser um protetor térmico e solar, por conter 11 aminoácidos e proteínas vegetais hidrolisadas, também conta com uma tecnologia única, o uso contínuo traz reconstrução ao fio, pois os princípios ativos por ter muita afinidade com o fio, vão se sobrepondo e causando assim um aumento na espessura dos fios. INDICADO PARA RECONSTRUÇÃO, REPOSIÇÃO DE MASSA E PROTEÇÃO UVA/UVB.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 100ML – Home Care',
 		colecao: [item24],
 		imagem: item24
@@ -421,7 +421,7 @@ export const ProdutosBrData = [
 		idproduto: 25,
 		title: 'INFINITY REPAIR PROTEIN - REPOSITOR DE PROTEÍNA',
 		descricao: 'O Infinity Repair Protein Facinnius é um repositor de proteína que atua  reconstruindo a massa capilar e fortalecendo a estrutura dos cabelos. Excelente para garantir proteção aos fios enquanto mantém os cabelos lisos e sem frizz. Possui filtro protetor UVA e UVB.  Com esse produto você tem uma ação filmógena que age nas cutículas  recuperando sua capacidade de se manter selada, doando muito brilho ao cabelo. INDICADO REPOSIÇÃO DE PROTEÍNA, PROTEÇÃO UVA/UVB.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 100ML – Home Care',
 		colecao: [item25],
 		imagem: item25
@@ -433,7 +433,7 @@ export const ProdutosBrData = [
 		idproduto: 26,
 		title: 'POMADA MODELADORA - WAX PRIME',
 		descricao: 'A Pomada Wax Prime Facinnius proporciona flexibilidade e aparência natural. Sua fórmula leve a base de água proporciona uma combinação perfeita entre modelagem, textura e definição para estilizar diversos looks sem deixar flanks.  Por ser a base de água se for utilizada na medida e técnica correta, não engordura o fio. INDICADO PARA MODELAGEM.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 150ml – Home Care',
 		colecao: [item26],
 		imagem: item26
@@ -445,7 +445,7 @@ export const ProdutosBrData = [
 		idproduto: 27,
 		title: 'SPRAY DE BRILHO - ACEZZO',
 		descricao: 'Em versão líquida e aerosol, o spray de brilho Acezzo Facinnius é ideal para brilho intenso e proteção aos fios. Sua fórmula exclusiva contém silicones nobres que formam uma película protetora contra maus odores, deixando os fios com um perfume sofisticado e brilho natural. Também proporciona sensação de cabelos aveludados e leves. Ideal para todos os tipos de cabelos e ocasiões. INDICADO PARA DAR BRILHO INTENSO E PROTEÇÃO AOS FIOS.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 100ml Home Care',
 		colecao: [item27],
 		imagem: item27
@@ -467,7 +467,7 @@ export const ProdutosBrData = [
 		idproduto: 28,
 		title: 'REPARADOR - ARGAN',
 		descricao: 'O óleo de Argan Facinnius é um poderoso reparador, possui altos níveis de ácidos graxos essenciais, ômega 6 e vitaminas A, D e E. Melhorando a elasticidade dos fios proporcionando brilho diamantado e maciez prolongada. INDICADO PARA CABELOS OPACOS, SEM VIDA E DIMINUIÇÃO DE FRIZZ.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 30ml, 120ml - Home Care',
 		colecao: [item28, item28_1],
 		imagem: item28
@@ -478,7 +478,7 @@ export const ProdutosBrData = [
 		idproduto: 29,
 		title: 'REPARADOR - OJON', 
 		descricao: 'Rico em aminoácidos, antioxidantes e lipídios, o reparador Ojon Facinnius  apresenta fórmula ideal para os cabelos muito ressecados e danificados  profundamente, pois age na fibra recuperando as células capilares. Garante brilho e resistência aos fios, evitando que eles se tornem quebradiços e opacos. INDICADO PARA CABELOS RESSECADOS, DANIFICADOS PROFUNDAMENTE E DIMINUIÇÃO DE FRIZZ.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 30ml, 120ml - Home Care',
 		colecao: [item29, item29_1],
 		imagem: item29
@@ -489,7 +489,7 @@ export const ProdutosBrData = [
 		idproduto: 30,
 		title: 'REPARADOR - SILICONES NOBRES',
 		descricao: 'Produzido com os melhores silicones do mercado, o reparador Silicones Nobres Facinnius hidrata os cabelos e conta com ação protetora para os fios contra agentes externos. Realça o brilho dos cabelos deixando-os leves e disciplinados. INDICADO PARA CABELOS COM FRIZZ.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 30ml, 120ml - Home Care',
 		colecao: [item30],
 		imagem: item30
@@ -501,7 +501,7 @@ export const ProdutosBrData = [
 		idproduto: 31,
 		title: 'ATIVADOR DE CACHOS - LEAVE-IN',
 		descricao: 'O Ativador de Cachos Facinnius apresenta uma fórmula única que modela, nutre e hidrata os cachos. Possui filtro UVA para uma proteção extra contra os danos causados pelos raios solares. Indicado para todos os tipos de cachos e ondulações, também mantém os cabelos disciplinados, com movimento e protegidos diariamente. INDICADO PARA CABELOS CACHEADOS E ONDULADOS.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ml – Home Care',
 		colecao: [item31],
 		imagem: item31
@@ -511,7 +511,7 @@ export const ProdutosBrData = [
 		idproduto: 32,
 		title: 'LEITE SILICONADO HIDRATANTE MAR E PISCINA - LEAVE-IN',
 		descricao: 'Sua fórmula especial rica em nutrientes vitaminas, aminoácidos e silicones, é indicada para a proteção de banho de mar e piscina. Protege os fios do cloro, da água salgada e do sol, deixando seus cabelos macios, com brilho intenso e fáceis de pentear. INDICADO PARA TODOS OS TIPOS DE CABELO PROTEÇÃO MAXIMA UVA/UVB.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ml – Home Care',
 		colecao: [item32],
 		imagem: item32
@@ -521,7 +521,7 @@ export const ProdutosBrData = [
 		idproduto: 33,
 		title: 'POWER ANTI-FRIZZ - LEAVE-IN',
 		descricao: 'O Power Anti-Frizz Facinnius é indicado para ser aplicado antes da escovação, pois facilita a modelagem dos cabelos, tornando o processo até três vezes mais rápido que o habitual. Com silicone, queratina e tamariliz, é criada uma película protetora em torno dos fios que garante reposição da massa capilar e proteção térmica eficiente, deixando os fios com brilho intenso, sedosos e hidratados. INDICADO PARA FACILITAR A ESCOVA EM 3 VEZES MAIS RAPIDEZ E PARA PROTEÇÃO UVA/UVB.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ml – Home Care',
 		colecao: [item33],
 		imagem: item33
@@ -531,7 +531,7 @@ export const ProdutosBrData = [
 		idproduto: 34,
 		title: 'REDUCER BIO ELIXIR - LEAVE-IN',
 		descricao: 'O Reducer Bio Elixir Facinnius contém óleos essenciais que atuam na sedosidade e hidratação dos fios. Possui vitaminas e ativos nano tecnológicos que repõem as proteínas e lipídios, deixando os cabelos saudáveis hidratados e macios. INDICADO PARA REPOSITOR DE PROTEÍNA, LIPÍDIO E  PROTETOR UVA/UVB.',
-		filtros: ['Home Care'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ml – Home Care',
 		colecao: [item34],
 		imagem: item34
