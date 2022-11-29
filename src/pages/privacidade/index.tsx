@@ -22,7 +22,7 @@ export default function Privacidade() {
 				<p><span >
 				Esta Política de Privacidade tem como objetivo informar você (doravante “Usuário”), que acessa a página da <strong>Facinnius</strong> na Internet, quais informações são coletadas, como elas são tratadas, bem como as formas de compartilhamento e de exclusão desses dados. </span></p>
             <br>
-				<p><span>A presente Política de Privacidade é aplicável ao presente site da <strong>Facinnius</strong>.Com a aceitação desta Política de Privacidade pelo Usuário, este concorda e permite o acesso as suas informações a partir do seu primeiro acesso ao site. Caso reste alguma dúvida, após a leitura desta Política de Privacidade, entre em contato conosco, <strong>entre em contato.</strong></span></p>
+				<p><span>A presente Política de Privacidade é aplicável ao presente site da <strong>Facinnius</strong>.Com a aceitação desta Política de Privacidade pelo Usuário, este concorda e permite o acesso as suas informações a partir do seu primeiro acesso ao site. Caso reste alguma dúvida, após a leitura desta Política de Privacidade, entre em contato conosco.</strong></span></p>
 			<br/>	
 				<p><span><strong>Quais informações Coletamos:</strong> <br/><br/> Para os fins desta Política de Privacidade, aplicam-se as seguintes definições:
 
@@ -46,7 +46,7 @@ export default function Privacidade() {
             <br>
 				<p><span>Utilizamos em nosso Site recursos de campanhas de publicidade baseadas em interesses, listas de remarketing, informações demográficas e de local de destino. As campanhas de publicidade não associam identificações individuais às listas de remarketing, cookies, dados de feeds ou outros identificadores anônimos. Da mesma forma, os recursos aplicados em campanhas não são associados a informações coletadas na página de nosso site e anúncios. Ainda, as informações de identificação individual não são compartilhadas com nenhum Site ou parceiro por meio da tag de remarketing ou qualquer feed de dados que possam estar associados aos nossos anúncios.
 				O Usuário dá o consentimento livre, expresso e informado para que utilizemos as informações coletadas por meio do Site para fins publicitários, dentro do próprio Site e por meio das informações de contato fornecidas pelo Usuário no Site, nos termos descritos nesta Política de Privacidade.
-				Caso não deseje mais receber informativos publicitários, envie um e-mail para nós, <strong>entre em contato</strong>.<br/>
+				Caso não deseje mais receber informativos publicitários, envie um e-mail para nós.<br/>
 				É, ainda, importante atentar que o Site pode conter links para outras páginas, como redes sociais ou lojas virtuais, entre outras, que possuem Política de Privacidade com previsões diversas das deste documento. Dessa forma, não se responsabiliza pela coleta, utilização, compartilhamento e armazenamento de dados dos Usuários pelos responsáveis por tais páginas.</span></p>
 			<br/>
 				<p><span><strong>3. Com quem compartilhamos as informações coletadas  </strong></span></p>
