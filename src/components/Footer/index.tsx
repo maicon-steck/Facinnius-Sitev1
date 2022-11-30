@@ -138,14 +138,14 @@ export default function Footer() {
       </div>
 
       <div className="footer__info container">
-        <Link href="/privacidade" className="footer__privacy">
+        <div  className="footer__privacy">
           <p
             style={{ textAlign: "center", maxWidth: "80ch" }}
             dangerouslySetInnerHTML={{ __html: t("home_footer_politica") }}
           />
-        </Link>
+        </div>
         <span className="footer__copy">
-          Copyright &#169; - Desenvolvido por M10web
+          Copyright &#169; - Desenvolvido por <strong>M10web</strong>
         </span>
 
         {/* <Link href="/cookies" className="footer__privacy">

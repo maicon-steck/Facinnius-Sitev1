@@ -45,7 +45,7 @@
     "home_footer_localizacao_endereco_cep": "CEP 09270-190",
     "home_footer_localizacao_endereco_cnpj": "CNPJ 20.712.759/0001-04",
     "home_footer_redes_titulo": "Redes sociais",
-    "home_footer_politica": "Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência de navegação. Para saber mais acesse: Política de Cookies e Política de Privacidade. <br><br> As imagens aqui vinculadas são meramente ilustrativas, logotipo e marca são de nossa propriedade. É vetada a sua reprodução, total ou parcial, sem a expressa autorização da administradora do site.",
+    "home_footer_politica": "Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência de navegação. Para saber mais acesse: <Link><a href='/cookies'><strong>Política de Cookies</strong></a></Link> e <Link><a href='/privacidade'><strong>Política de Privacidade </strong></a></Link>. <br><br> As imagens aqui vinculadas são meramente ilustrativas, logotipo e marca são de nossa propriedade. É vetada a sua reprodução, total ou parcial, sem a expressa autorização da administradora do site.",
 
     "produtoId_titulo": "Uma preparação premium e de melhor qualidade só para você!",
 
