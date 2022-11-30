@@ -5,6 +5,8 @@ import { RiFacebookFill, RiInstagramFill, RiYoutubeFill } from "react-icons/ri";
 import { IoLogoTiktok } from "react-icons/io5";
 import Image from "next/image";
 import logoFacinnius from "../../../public/images/logoFacinnius.png";
+import i18n from "../../i18n";
+
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -50,7 +52,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#new" className="footer__link">
+                <Link href={i18n.language === 'en' ? '/en/locais' : '/locais'} className="footer__link">
                   <a className="footer__link">
                     {t("home_footer_companhia_linhas")}
                   </a>
