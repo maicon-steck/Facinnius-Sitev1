@@ -187,7 +187,7 @@ export default function ProductsList({ productBr, productEn }) {
                 }
                 onClick={() => handleOnChangeFilterLine(["Profissional"])}
               >
-                <span>Profissional</span>
+                <span>{t("produtos_button_linha")}</span>
               </label>
               <label
                 className={
