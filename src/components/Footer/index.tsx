@@ -12,10 +12,7 @@ export default function Footer() {
   return (
     <footer className="footer section">
       <div className="footer__container container grid">
-        
-
-        <div className="footer__content">
-        <div>
+      <div>
           <Link href="/" className="nav__logo">
             <a
               style={{
@@ -36,6 +33,9 @@ export default function Footer() {
             dangerouslySetInnerHTML={{ __html: t("home_footer_descricao") }}
           />
         </div>
+
+        <div className="footer__content">
+        
           <div>
             <h3 className="footer__title">
               {t("home_footer_companhia_titulo")}
@@ -65,21 +65,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* <div>
-            <h3 className="footer__title">{t('home_footer_blog_titulo')}</h3>
-
-            <ul className="footer__links">
-              <li>
-                <Link href="#" className="footer__link">
-                  <a  className="footer__link">
-                    {t('home_footer_blog_eventos')}
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </div> */}
-
+          
           <div>
             <h3 className="footer__title">
               {t("home_footer_localizacao_titulo")}
@@ -147,6 +133,7 @@ export default function Footer() {
               </a>
             </ul>
           </div>
+
         </div>
       </div>
 

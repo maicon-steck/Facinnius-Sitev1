@@ -170,7 +170,7 @@
     
     .footer__container{
         grid-template-columns: repeat(2, max-content);
-        justify-content: space-between;
+        gap: 3.5rem;
     }
 }
 
@@ -183,6 +183,14 @@
             margin-bottom: 4rem;
         }
     }
+
+    .footer__container{
+        grid-template-columns: repeat(2, max-content);
+        gap: 5.5rem;
+        justify-content: center;
+    }
+
+    
 
     .nav{
         height: calc(var(--header-height) + 1.5rem);
@@ -230,7 +238,7 @@
 
     .footer{
         &__content{
-            grid-template-columns: repeat(4, max-content);
+            grid-template-columns: repeat(3, max-content);
             column-gap: 5.5rem;
         }
         &__link{
@@ -303,6 +311,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
 
     .blog{
         &__container{
