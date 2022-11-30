@@ -98,34 +98,42 @@ export default function ProductsList({ productBr, productEn }) {
     }
   };
 
-  const [filterLines, setFilterLines] = useState(["Profissional", "HomeCare"]);
+  const [filterLines, setFilterLines] = useState<any[]>(["Profissional"]);
 
   function handleOnChangeFilterLine(value) {
-    const existing = value.filter(
-      (objValue) =>
-        filterLines.filter((objFilterLines) => objValue === objFilterLines)
-          .length > 0
-    );
+    const existing = value == filterLines
 
-    if (existing.length === 0) {
-      const newLine = filterLines;
-
-      value.map((valueRow) => {
-        newLine.push(valueRow);
-      });
-      setFilterLines([...newLine]);
+    console.log(existing)
+    if (existing){
+      setFilterLines([])
     } else {
-      if (value.length === 2) {
-        setFilterLines([]);
-      } else {
-        setFilterLines(
-          filterLines.filter(
-            (objFilterLines) =>
-              value.filter((objValue) => objValue !== objFilterLines)[0]
-          )
-        );
-      }
+      const newArray = []
+      value.map((row:any)=>{
+        newArray.push(row)
+      })
+      setFilterLines(newArray)
     }
+
+    // if (existing.length === 0) {
+    //   const newLine = filterLines;
+
+    //   value.map((valueRow) => {
+    //     newLine.push(valueRow);
+    //   });
+    //   setFilterLines([...newLine]);
+    // } else {
+    //   if (value.length === 2) {
+    //     setFilterLines([]);
+    //   } else {
+    //     setFilterLines(
+    //       filterLines.filter(
+    //         (objFilterLines) =>
+    //           value.filter((objValue) => objValue !== objFilterLines)[0]
+    //       )
+    //     );
+    //   }
+    // }
+    
   }
 
   useEffect(() => {
@@ -150,6 +158,8 @@ export default function ProductsList({ productBr, productEn }) {
     setData([...newData]);
     console.log('objeto que está virando o data',newData)
   }, [filterLines]);
+
+  console.log(filterLines)
 
   return (
     <>
@@ -199,21 +209,19 @@ export default function ProductsList({ productBr, productEn }) {
               >
                 <span>Home Care</span>
               </label>
+              <label
+                className={
+                  (filterLines.includes('HomeCare') && filterLines.includes("Profissional"))
+                    ? "active"
+                    : "normal"
+                }
+                onClick={() => handleOnChangeFilterLine(["HomeCare", "Profissional"])}
+              >
+                <span>{t("produtos_button_linha_todos")}</span>
+              </label>
             </div>
 
-            {/* <button
-                    style={{
-                      cursor: "pointer",
-                      gap: "12px",
-                      display: "flex",
-                      alignItems: "center",
-                    }}
-                    className="buttonDefault"
-                    onClick={() => setModal(!modal)}
-                  >
-                    <BiFilter size={18} />
-                    {t("produtos_botao_filtro")}
-                  </button> */}
+            
           </div>
 
           <div
