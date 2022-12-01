@@ -1,6 +1,7 @@
 .containerCookie {
   position: fixed;
   bottom: 10px;
+  left: 10px;
   z-index: 50;
 
   display: flex;
@@ -9,7 +10,7 @@
   justify-content: space-between;
   gap: 20px;
 
-  width: 380px;
+  width: 465px;
   padding: 16px 18px;
   background: #fff;
   border-radius: 4px;
@@ -70,6 +71,7 @@
   @media(max-width: 800px) {
       width: calc(100% - 40px);
       margin: 0 20px;
+      left: 0px;
 
       .infoCookie {
           width: 100%;
