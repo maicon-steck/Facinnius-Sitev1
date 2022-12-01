@@ -1,48 +1,54 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { setCookie, getCookie } from "cookies-next";
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 const ModalCookies = () => {
-  const [modal, setModal] = useState(false);
-  const [teste, setTeste] = useState(false);
-  const [cookie, setCookie] = useState(() => {
-    if (typeof window !== "undefined") {
-      const coke = localStorage.getItem('@Alpha:Cookie');
-      if (coke) {
-        return { coke };
-      }
-    } 
-    return {};
-  });
+  const [coookieTrue, setCookieTrue] = useState<boolean>(false);
+  const { t, i18n } = useTranslation();
 
-  function handleCookie() {
-    localStorage.setItem('@Alpha:Cookie', 'true');
-    setTeste(!teste)
-    setCookie({
-      coke: 'true'
-    })
+
+  useEffect(() => {
+    getCookies();
+  }, []);
+
+  
+
+
+
+  async function handleCookie() {
+    const cookie = setCookie("authorization", "authorized");
+    setCookieTrue(true)
   }
 
-  console.log('teste', cookie)
-  
+  function getCookies() {
+    setCookieTrue(!!getCookie("authorization"));
+  }
+
+
   return (
-    <div className={`containerCookie ${teste || !!cookie.coke ? 'coke' : ''}`}>
+    <div className={`containerCookie ${coookieTrue && "coke"}`}>
       <div className="infoCookie">
-        <span>
-          Utilizamos cookies para melhorar sua experiência. Ao continuar
-          navegando, você aceita a nossa política de monitoramento. Mais
-          informações, consulte a seção "Utilização de cookies" em nossos
-          <button className="buttonTerms" onClick={() => setModal(!modal)}>
-            Nossos termos de uso.
-          </button>
-        </span>
+      <div
+            className="container"
+            dangerouslySetInnerHTML={{
+              __html: t("modal_cookies", {
+                interpolation: { escapeValue: false },
+              }),
+            }}
+          />
       </div>
 
-      <button 
-        className="buttonAcceptCookies"
-        onClick={handleCookie}
-        >
-            Aceitar
-        </button>
-        
+
+      <button
+        className="buttonDefault full"
+        onClick={() => {
+          handleCookie();
+        }}
+      >
+        {t("modal_cookies_button")}
+      </button>
     </div>
   );
 };

@@ -34,7 +34,7 @@ export default function Home({ productEn, productBr, blogBr, blogEn, questionBr,
         {/* <Blog blogBr={blogBr} blogEn={blogEn}/> */}
         <Footer />
 
-        {/* <ModalCookies/> */}
+        <ModalCookies/>
       </main>
     </>
   );

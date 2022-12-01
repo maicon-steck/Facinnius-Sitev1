@@ -7,7 +7,6 @@ import Accordion from "../Accordion";
 export default function Categories({ lineBr, lineEn }) {
   const { t, i18n } = useTranslation();
 
-  const isBr = i18n.language === 'ptbr' ? lineBr : lineEn
 
   return (
     <section className="new section" id="new">
