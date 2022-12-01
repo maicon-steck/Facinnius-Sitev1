@@ -8,38 +8,31 @@ const ModalCookies = () => {
   const [coookieTrue, setCookieTrue] = useState<boolean>(false);
   const { t, i18n } = useTranslation();
 
-
   useEffect(() => {
     getCookies();
   }, []);
 
-  
-
-
-
   async function handleCookie() {
     const cookie = setCookie("authorization", "authorized");
-    setCookieTrue(true)
+    setCookieTrue(true);
   }
 
   function getCookies() {
     setCookieTrue(!!getCookie("authorization"));
   }
 
-
   return (
     <div className={`containerCookie ${coookieTrue && "coke"}`}>
       <div className="infoCookie">
-      <div
-            className="container"
-            dangerouslySetInnerHTML={{
-              __html: t("modal_cookies", {
-                interpolation: { escapeValue: false },
-              }),
-            }}
-          />
+        <div
+          className="container"
+          dangerouslySetInnerHTML={{
+            __html: t("modal_cookies", {
+              interpolation: { escapeValue: false },
+            }),
+          }}
+        />
       </div>
-
 
       <button
         className="buttonDefault full"

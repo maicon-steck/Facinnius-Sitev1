@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { ToastContainer } from "react-toastify";
 import i18n from "../i18n";
 import Head from "next/head";
+import ModalCookies from "../components/ModalCookies";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -18,6 +19,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Component {...pageProps} />
       <ToastContainer />
+      <ModalCookies/>
+
     </>
   );
 }
