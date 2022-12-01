@@ -61,11 +61,21 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href={i18n.language === "en" ? "/en/facinnius" : "/facinnius"}
+                  className="footer__link"
+                >
+                  <a className="footer__link">
+                    {t("home_footer_companhia_sobre")}
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link
                   href={i18n.language === "en" ? "/en/locais" : "/locais"}
                   className="footer__link"
                 >
                   <a className="footer__link">
-                    {t("home_footer_companhia_linhas")}
+                    {t("home_footer_companhia_locais")}
                   </a>
                 </Link>
               </li>
