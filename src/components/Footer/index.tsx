@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="footer section">
       <div className="footer__container container grid">
-        <div>
+        <div className='flex_center'>
           <Link href="/" className="nav__logo">
             <a
               style={{
@@ -40,18 +40,19 @@ export default function Footer() {
           </Link>
 
           <p
-            className="footer__description"
+
+            className="footer__description text_center"
             dangerouslySetInnerHTML={{ __html: t('home_footer_descricao') }}
           />
         </div>
 
         <div className="footer__content">
-          <div>
+          <div className='flex_center'>
             <h3 className="footer__title">
               {t('home_footer_companhia_titulo')}
             </h3>
 
-            <ul className="footer__links">
+            <ul className="footer__links text_center">
               <li>
                 <Link href="/lista-produtos" className="footer__link">
                   <a className="footer__link">
@@ -79,12 +80,12 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className='flex_center'>
             <h3 className="footer__title">
               {t('home_footer_localizacao_titulo')}
             </h3>
 
-            <p className="footer__information">
+            <p className="footer__information text_center">
               Av Nova Zelândia, 1050 <br />
               Parque Capuava - Santo André/SP
             </p>
@@ -98,8 +99,10 @@ export default function Footer() {
             </p>
           </div>
 
-          <div>
-            <h3 className="footer__title">{t('home_footer_redes_titulo')}</h3>
+          <div
+          className=' center'
+          >
+            <h3 className="footer__title text_center">{t('home_footer_redes_titulo')}</h3>
 
             <ul className="footer__social">
               <a

@@ -40,3 +40,14 @@
 .main{
     overflow: hidden; /* For animation ScrollReveal */
 }
+
+.flex_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_center{
+    text-align: center;
+}
+
