@@ -40,6 +40,7 @@ import item28_1 from '../../public/images/item28_1.png';
 import item29 from '../../public/images/item29.png';
 import item29_1 from '../../public/images/item29_1.png';
 import item30 from '../../public/images/item30.png';
+import item30_1 from '../../public/images/item30_1.png';
 import item31 from '../../public/images/item31.png';
 import item32 from '../../public/images/item32.png';
 import item33 from '../../public/images/item33.png';
@@ -53,7 +54,9 @@ import item37_1 from '../../public/images/item37_1.png';
 import item38 from '../../public/images/item38.png';
 import item38_1 from '../../public/images/item38_1.png';
 import item39 from '../../public/images/item39.png';
-
+import item28_2 from '../../public/images/item28_2.png';
+import item29_2 from '../../public/images/item29_2.png';
+import item30_2 from '../../public/images/item30_2.png';
 
 export const ProdutosEnData = [
 	{
@@ -213,8 +216,8 @@ export const ProdutosEnData = [
 		idproduto: 8,
 		title: 'SHAMPOO E LIQUID MASK - VIOLET SILK PROTEIN',
 		descricao: 'Violeta Seda Protein Facinnius acts on two important factors for bleached hair: uniform color and hydration.  Its nanotechnological pigments remove the yellowness of the blonde strands, giving the hair a platinum appearance.  In addition, it moisturizes and provides more elasticity to the wires.',
-		filtros: ['Profissional'],
-		versões: 'Verses: Fl.oz 10,14 | Fl.oz 33,81 - Professional',
+		filtros: ['HomeCare'],
+		versões: 'Verses: Fl.oz 10,14 | Fl.oz 33,81 - Home Care',
 		colecao: [item8, item8_1, item8_2],
        imagem: item8
 		// imagem: '/img/produtos/produto8.jpg',
@@ -308,7 +311,7 @@ export const ProdutosEnData = [
 		idproduto: 14,
 		title: 'KOLORE COLORING',
 		descricao: 'Kolore Facinnius coloring, with exclusive K-COMPLEX technology, contains Argan Oil, Macadamia, Seaweed, Keratin, Sericin, Aloe-Vera, Vitamin-D and Panthenol, which help protect the scalp from aggressions chemicals.  Together with silk protein, it provides maximum hydration, silkiness, diamond shine and extra conditioning.',
-		filtros: ['HomeCare'],
+		filtros: ['Profissional'],
 		versões: 'Version: Fl.oz 2,11 - Professional',
 		colecao: [item14, item14_1],
 		imagem: item14
@@ -334,8 +337,8 @@ export const ProdutosEnData = [
 		idproduto: 16,
 		title: 'SHAMPOO AND CONDITIONER - BLACKBERRY WITH POMEGRANATE ',
 		descricao: 'Ideal for mixed hair, it provides hydration and intense shine to the strands.  It keeps the hair hydrated and replenishes fiber vitamins.  It has antioxidant action, preserving the health and structure of the hair.',
-		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 10,14 – Professional',
+		filtros: ['HomeCare'],
+		versões: 'Version: Fl.oz 10,14 – Home Care',
 		colecao: [item16],
 		imagem: item16    
 		// imagem: '/img/produtos/prod26.jpg',
@@ -347,8 +350,8 @@ export const ProdutosEnData = [
 		idproduto: 17,
 		title: 'SHAMPOO AND CONDITIONER - BLUEBERRY',
 		descricao: 'Ideal for dry hair, Blueberry Facinnius has a balanced Ph that promotes efficient cleaning of the  hair without damaging it.  Its balanced formulation contains nutrients and lino semi, active from linseed that prevents the loss of water from the hair.  Provides deep and prolonged hydration, bringing lightness and movement to your hair.',
-		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 10,14 – Professional',
+		filtros: ['HomeCare'],
+		versões: 'Version: Fl.oz 10,14 – Home Care',
 		colecao: [item17],
 		imagem: item17
 		// imagem: '/img/produtos/prod27.jpg',
@@ -360,8 +363,8 @@ export const ProdutosEnData = [
 		idproduto: 18,
 		title: 'SHAMPOO AND CONDITIONER - MINT WITH MENTHOL',
 		descricao: 'Ideal for oily hair, it has detoxifying and refreshing components.  It works by balancing the oiliness of the scalp, providing hydration to the strands without weighing them down.',
-		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 10,14 – Professional',
+		filtros: ['HomeCare'],
+		versões: 'Version: Fl.oz 10,14 – Home Care',
 		colecao: [item18],
 		imagem: item18
 		// imagem: '/img/produtos/prod28.jpg',
@@ -373,8 +376,8 @@ export const ProdutosEnData = [
 		idproduto: 19,
 		title: 'SHAMPOO AND CONDITIONER - RECOVERY CUPUAÇU',
 		descricao: 'Ideal for chemically treated hair, Recovery Cupuaçu Facinnius has Biorestore and Poliquartenium 10, ingredients that moisturize, condition and repair damaged hair. It can be used after relaxation and discoloration, helping to rebuild the hair fiber.',
-		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 10,14 – Professional',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item19],
 		imagem: item19
 		// imagem: '/img/produtos/prod29.jpg',
@@ -399,8 +402,8 @@ export const ProdutosEnData = [
 		idproduto: 21,
 		title: 'SHAMPOO AND CONDITIONER - DETOX REFRESH',
 		descricao: 'With a detoxifying formula, Detox Refresh Facinnius promotes an anti-pollution action, leaving a pleasant sensation of freshness and lightness. It can be used daily to balance the oiliness of the hair and scalp.',
-		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 10,14 – Professional',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item21],
 		imagem: item21
 		// imagem: '/img/produtos/produto21.jpg',
@@ -412,8 +415,8 @@ export const ProdutosEnData = [
 		idproduto: 22,
 		title: 'SHAMPOO AND CONDITIONER - INFINITY ONE',
 		descricao: 'The Infinity One Facinnius line has an exclusive formula composed of proteins and structural amino acids (serine, glutamic acid and cysteine), performing biomimetic repair. Its main asset ReparAge penetrates deeply into the hair fiber promoting the increase in the diameter of the strands with prolonged use of the product. With the Pro Filter effect that repairs the natural aging of the strands leaving them as new.',
-		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 10,14 – Professional',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item22],
         imagem: item22
 		// imagem: '/img/produtos/produto22.jpg',
@@ -425,8 +428,8 @@ export const ProdutosEnData = [
 		idproduto: 23,
 		title: 'SHAMPOO AND CONDITIONER - INFINITY REPAIR',
 		descricao: 'The Infinity Repair Facinnis line has an exclusive formula with 3 essential proteins (wheat, milk and silk), which attributes benefits such as strength improvement, volume increase and conditioning. The 3 joints combined with a formulation rich in ingredients that restore the hydration of the wires., indispensable for those who want shiny, healthy and soft hair.',
-		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 10,14 – Professional',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item23],
         imagem: item23
 		// imagem: '/img/produtos/produto23.jpg',
@@ -438,8 +441,8 @@ export const ProdutosEnData = [
 		idproduto: 24,
 		title: 'HAIR RECONSTRUCTION BIPHASIC - INFINITY ONE',
 		descricao: 'Infinity One Facinnius is an excellent hair rebuilder with antioxidant action that repairs the hair. It has a velvety texture and leaves a silky touch in the hair, keeping it frizz-free.  Contains UVA and UVB protective filters. In addition to being a thermal and sun protector, as it contains 11 amino acids and hydrolyzed vegetable proteins, it also has a unique technology, continuous use brings reconstruction to the hair, as the active principles, having a lot of affinity with the thread, overlap and cause thus an increase in the thickness of the hair.',
-		filtros: ['HomeCare'],
-		versões: 'Version: Fl.oz 3,84 – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 3,84 – Home Care/Professioanl',
 		colecao: [item24],
 		imagem: item24
 		// imagem: '/img/produtos/produto24.jpg',
@@ -451,8 +454,8 @@ export const ProdutosEnData = [
 		idproduto: 25,
 		title: 'INFINITY REPAIR PROTEIN - PROTEIN REPLENISHER',
 		descricao: 'Infinity Repair Protein Facinnius is a protein replenisher that works by rebuilding the hair mass and strengthening the hair structure.  Excellent for ensuring hair protection while keeping hair smooth and frizz-free.  It has a UVA and UVB protective filter.With this product, you have a film-forming action that acts on the cuticles, recovering their ability to remain sealed, giving the hair a lot of shine.',
-		filtros: ['HomeCare'],
-		versões: 'Version: Fl.oz 3,84 – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 3,84 – Home Care/Professional',
 		colecao: [item25],
 		imagem: item25
 		// imagem: '/img/produtos/produto25.jpg',
@@ -477,8 +480,8 @@ export const ProdutosEnData = [
 		idproduto: 27,
 		title: 'SHINE SPRAY - ACEZZO',
 		descricao: 'In liquid and aerosol versions, the Acezzo Facinnius shine spray is ideal for intense shine and hair protection.  Its exclusive formula contains noble silicones that form a protective film against bad odors, leaving the hair with a sophisticated scent and natural shine.  It also provides a feeling of velvety and light hair.  Ideal for all hair types and occasions.',
-		filtros: ['HomeCare'],
-		versões: 'Version: Fl.oz 3,84 - Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 3,84 - Home Care/Professional',
 		colecao: [item27],
 		imagem: item27
 		// imagem: '/img/produtos/produto27.jpg',
@@ -488,12 +491,22 @@ export const ProdutosEnData = [
 		idproduto: 27,
 		title: 'SHINE SPRAY - ACEZZO',
 		descricao: 'In liquid and aerosol versions, the Acezzo Facinnius shine spray is ideal for intense shine and hair protection.  Its exclusive formula contains noble silicones that form a protective film against bad odors, leaving the hair with a sophisticated scent and natural shine.  It also provides a feeling of velvety and light hair.  Ideal for all hair types and occasions.',
-		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 13,52 – Professional',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 13,52 – Home Care/Professional',
 		colecao: [item27_1],
 		imagem: item27_1
 		// imagem: '/img/produtos/produto27.jpg',
 	},
+
+
+
+
+
+
+
+
+
+
 
 
 	{
@@ -501,36 +514,111 @@ export const ProdutosEnData = [
 		idproduto: 28,
 		title: 'REPAIRMAN - ARGAN',
 		descricao: 'Argan Facinnius oil is a powerful repairer, has high levels of essential fatty acids, omega 6 and vitamins A, De E. Improving the elasticity of the hair providing diamond shine and prolonged softness.',
+		filtros: ['Profissional'],
+		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
+		colecao: [item28_1],
+		imagem: item28_1
+		// imagem: '/img/produtos/produto28.jpg',
+	},
+	{
+		id: 35, // auto increment
+		idproduto: 28,
+		title: 'REPAIRMAN - ARGAN',
+		descricao: 'Argan Facinnius oil is a powerful repairer, has high levels of essential fatty acids, omega 6 and vitamins A, De E. Improving the elasticity of the hair providing diamond shine and prolonged softness.',
 		filtros: ['HomeCare'],
+		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
+		colecao: [item28_2],
+		imagem: item28_2
+		// imagem: '/img/produtos/produto28.jpg',
+	},
+
+
+
+
+	{
+		id: 35, // auto increment
+		idproduto: 28,
+		title: 'REPAIRMAN - ARGAN',
+		descricao: 'Argan Facinnius oil is a powerful repairer, has high levels of essential fatty acids, omega 6 and vitamins A, De E. Improving the elasticity of the hair providing diamond shine and prolonged softness.',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
+		colecao: [item28, item28_1],
+		imagem: item28
+		// imagem: '/img/produtos/produto28.jpg',
+	},
+	{
+		id: 35, // auto increment
+		idproduto: 28,
+		title: 'REPAIRMAN - ARGAN',
+		descricao: 'Argan Facinnius oil is a powerful repairer, has high levels of essential fatty acids, omega 6 and vitamins A, De E. Improving the elasticity of the hair providing diamond shine and prolonged softness.',
+		filtros: ['HomeCare', 'Profissional'],
 		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
 		colecao: [item28, item28_1],
 		imagem: item28
 		// imagem: '/img/produtos/produto28.jpg',
 	},
 
+
+
 	{
 		id: 36, // auto increment
 		idproduto: 29,
 		title: 'REPAIRMAN - OJON', 
 		descricao: 'Rich in amino acids, antioxidants and lipids, the repairer Ojon Facinnius presents an ideal formula for very dry and deeply damaged hair, as it acts on the fiber recovering hair cells.  It guarantees shine and resistance to the hair , preventing it  from becoming brittle and opaque.',
-		filtros: ['HomeCare'],
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
+		colecao: [item29, item29_1],
+        imagem: item29
+		// imagem: '/img/produtos/produto29.jpg',
+	},
+	{
+		id: 36, // auto increment
+		idproduto: 29,
+		title: 'REPAIRMAN - OJON', 
+		descricao: 'Rich in amino acids, antioxidants and lipids, the repairer Ojon Facinnius presents an ideal formula for very dry and deeply damaged hair, as it acts on the fiber recovering hair cells.  It guarantees shine and resistance to the hair , preventing it  from becoming brittle and opaque.',
+		filtros: ['HomeCare', 'Profissional'],
 		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
 		colecao: [item29, item29_1],
         imagem: item29
 		// imagem: '/img/produtos/produto29.jpg',
 	},
 
+
+
+
+
 	{
 		id: 37, // auto increment
 		idproduto: 30,
 		title: 'REPAIRMAN - NOBLE SILICONES',
 		descricao: 'Produced with the best silicones on the market, the repairer Silicones Nobres Facinnius moisturizes the hair and has a protective action against external agents. It enhances the shine of the hair leaving it light and disciplined.',
-		filtros: ['HomeCare'],
+		filtros: ['HomeCare', 'Profissional'],
 		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
 		colecao: [item30],
         imagem: item30
 		// imagem: '/img/produtos/produto30.jpg',
 	},
+	{
+		id: 37, // auto increment
+		idproduto: 30,
+		title: 'REPAIRMAN - NOBLE SILICONES',
+		descricao: 'Produced with the best silicones on the market, the repairer Silicones Nobres Facinnius moisturizes the hair and has a protective action against external agents. It enhances the shine of the hair leaving it light and disciplined.',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
+		colecao: [item30],
+        imagem: item30
+		// imagem: '/img/produtos/produto30.jpg',
+	},
+
+
+
+
+
+
+
+
+
+
 
 
 	{
