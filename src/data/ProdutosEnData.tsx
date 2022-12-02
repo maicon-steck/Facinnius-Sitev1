@@ -35,12 +35,6 @@ import item25 from '../../public/images/item25.png';
 import item26 from '../../public/images/item26.png';
 import item27 from '../../public/images/item27.png';
 import item27_1 from '../../public/images/item27_1.png';
-import item28 from '../../public/images/item28.png';
-import item28_1 from '../../public/images/item28_1.png';
-import item29 from '../../public/images/item29.png';
-import item29_1 from '../../public/images/item29_1.png';
-import item30 from '../../public/images/item30.png';
-import item30_1 from '../../public/images/item30_1.png';
 import item31 from '../../public/images/item31.png';
 import item32 from '../../public/images/item32.png';
 import item33 from '../../public/images/item33.png';
@@ -54,6 +48,9 @@ import item37_1 from '../../public/images/item37_1.png';
 import item38 from '../../public/images/item38.png';
 import item38_1 from '../../public/images/item38_1.png';
 import item39 from '../../public/images/item39.png';
+import item28_1 from '../../public/images/item28_1.png';
+import item29_1 from '../../public/images/item29_1.png';
+import item30_1 from '../../public/images/item30_1.png';
 import item28_2 from '../../public/images/item28_2.png';
 import item29_2 from '../../public/images/item29_2.png';
 import item30_2 from '../../public/images/item30_2.png';
@@ -500,129 +497,80 @@ export const ProdutosEnData = [
 
 
 
-
-
-
-
-
-
-
-
-
 	{
 		id: 35, // auto increment
 		idproduto: 28,
 		title: 'REPAIRMAN - ARGAN',
 		descricao: 'Argan Facinnius oil is a powerful repairer, has high levels of essential fatty acids, omega 6 and vitamins A, De E. Improving the elasticity of the hair providing diamond shine and prolonged softness.',
 		filtros: ['Profissional'],
-		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
+		versões: 'Version: Fl.oz 3,84 - Professional',
 		colecao: [item28_1],
 		imagem: item28_1
 		// imagem: '/img/produtos/produto28.jpg',
 	},
 	{
-		id: 35, // auto increment
+		id: 36, // auto increment
 		idproduto: 28,
 		title: 'REPAIRMAN - ARGAN',
 		descricao: 'Argan Facinnius oil is a powerful repairer, has high levels of essential fatty acids, omega 6 and vitamins A, De E. Improving the elasticity of the hair providing diamond shine and prolonged softness.',
 		filtros: ['HomeCare'],
-		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
+		versões: 'Version: Fl.oz 1,01 - Home Care',
 		colecao: [item28_2],
 		imagem: item28_2
 		// imagem: '/img/produtos/produto28.jpg',
 	},
 
 
-
-
 	{
-		id: 35, // auto increment
-		idproduto: 28,
-		title: 'REPAIRMAN - ARGAN',
-		descricao: 'Argan Facinnius oil is a powerful repairer, has high levels of essential fatty acids, omega 6 and vitamins A, De E. Improving the elasticity of the hair providing diamond shine and prolonged softness.',
-		filtros: ['HomeCare', 'Profissional'],
-		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
-		colecao: [item28, item28_1],
-		imagem: item28
-		// imagem: '/img/produtos/produto28.jpg',
-	},
-	{
-		id: 35, // auto increment
-		idproduto: 28,
-		title: 'REPAIRMAN - ARGAN',
-		descricao: 'Argan Facinnius oil is a powerful repairer, has high levels of essential fatty acids, omega 6 and vitamins A, De E. Improving the elasticity of the hair providing diamond shine and prolonged softness.',
-		filtros: ['HomeCare', 'Profissional'],
-		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
-		colecao: [item28, item28_1],
-		imagem: item28
-		// imagem: '/img/produtos/produto28.jpg',
-	},
-
-
-
-	{
-		id: 36, // auto increment
+		id: 37, // auto increment
 		idproduto: 29,
 		title: 'REPAIRMAN - OJON', 
 		descricao: 'Rich in amino acids, antioxidants and lipids, the repairer Ojon Facinnius presents an ideal formula for very dry and deeply damaged hair, as it acts on the fiber recovering hair cells.  It guarantees shine and resistance to the hair , preventing it  from becoming brittle and opaque.',
-		filtros: ['HomeCare', 'Profissional'],
-		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
-		colecao: [item29, item29_1],
-        imagem: item29
+		filtros: ['Profissional'],
+		versões: 'Version: Fl.oz 3,84 - Professional',
+		colecao: [item29_1],
+		imagem: item29_1
 		// imagem: '/img/produtos/produto29.jpg',
 	},
-	{
-		id: 36, // auto increment
-		idproduto: 29,
-		title: 'REPAIRMAN - OJON', 
-		descricao: 'Rich in amino acids, antioxidants and lipids, the repairer Ojon Facinnius presents an ideal formula for very dry and deeply damaged hair, as it acts on the fiber recovering hair cells.  It guarantees shine and resistance to the hair , preventing it  from becoming brittle and opaque.',
-		filtros: ['HomeCare', 'Profissional'],
-		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
-		colecao: [item29, item29_1],
-        imagem: item29
-		// imagem: '/img/produtos/produto29.jpg',
-	},
-
-
-
-
-
-	{
-		id: 37, // auto increment
-		idproduto: 30,
-		title: 'REPAIRMAN - NOBLE SILICONES',
-		descricao: 'Produced with the best silicones on the market, the repairer Silicones Nobres Facinnius moisturizes the hair and has a protective action against external agents. It enhances the shine of the hair leaving it light and disciplined.',
-		filtros: ['HomeCare', 'Profissional'],
-		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
-		colecao: [item30],
-        imagem: item30
-		// imagem: '/img/produtos/produto30.jpg',
-	},
-	{
-		id: 37, // auto increment
-		idproduto: 30,
-		title: 'REPAIRMAN - NOBLE SILICONES',
-		descricao: 'Produced with the best silicones on the market, the repairer Silicones Nobres Facinnius moisturizes the hair and has a protective action against external agents. It enhances the shine of the hair leaving it light and disciplined.',
-		filtros: ['HomeCare', 'Profissional'],
-		versões: 'Version: Fl.oz 1,01 and Fl.oz 3,84 - Home Care',
-		colecao: [item30],
-        imagem: item30
-		// imagem: '/img/produtos/produto30.jpg',
-	},
-
-
-
-
-
-
-
-
-
-
-
-
 	{
 		id: 38, // auto increment
+		idproduto: 29,
+		title: 'REPAIRMAN - OJON', 
+		descricao: 'Rich in amino acids, antioxidants and lipids, the repairer Ojon Facinnius presents an ideal formula for very dry and deeply damaged hair, as it acts on the fiber recovering hair cells.  It guarantees shine and resistance to the hair , preventing it  from becoming brittle and opaque.',
+		filtros: ['HomeCare'],
+		versões: 'Version: Fl.oz 1,01 - Home Care',
+		colecao: [item29_2],
+		imagem: item29_2
+		// imagem: '/img/produtos/produto29.jpg',
+	},
+
+
+	{
+		id: 39, // auto increment
+		idproduto: 30,
+		title: 'REPAIRMAN - NOBLE SILICONES',
+		descricao: 'Produced with the best silicones on the market, the repairer Silicones Nobres Facinnius moisturizes the hair and has a protective action against external agents. It enhances the shine of the hair leaving it light and disciplined.',
+		filtros: ['Profissional'],
+		versões: 'Version: Fl.oz 3,84 - Professional',
+		colecao: [item30_1],
+		imagem: item30_1
+		// imagem: '/img/produtos/produto30.jpg',
+	},
+	{
+		id: 40, // auto increment
+		idproduto: 30,
+		title: 'REPAIRMAN - NOBLE SILICONES',
+		descricao: 'Produced with the best silicones on the market, the repairer Silicones Nobres Facinnius moisturizes the hair and has a protective action against external agents. It enhances the shine of the hair leaving it light and disciplined.',
+		filtros: ['HomeCare'],
+		versões: 'Version: Fl.oz 1,01 - Home Care',
+		colecao: [item30_2],
+		imagem: item30_2
+		// imagem: '/img/produtos/produto30.jpg',
+	},
+
+
+	{
+		id: 41, // auto increment
 		idproduto: 31,
 		title: 'CURL ACTIVATOR - LEAVE-IN',
 		descricao: 'Facinnius Curl Activator features a unique formula that shapes, nourishes and moisturizes curls.  It has a UVA filter for extra protection against damage caused by the sun s rays.  Indicated for all types of curls and waves, it also keeps hair disciplined, with movement and protected daily.',
@@ -633,7 +581,7 @@ export const ProdutosEnData = [
 		// imagem: '/img/produtos/produto31.jpg',
 	},
 	{
-		id: 39, // auto increment
+		id: 42, // auto increment
 		idproduto: 32,
 		title: 'MOISTURIZING SILICONE MILK SEA & POOL - LEAVE-IN',
 		descricao: 'Its special formula rich in nutrients, vitamins, amino acids and silicones, is indicated for the protection of swimming  in the sea and  pool.  Protects the hair from chlorine, salt water and the sun, leaving your hair soft, with intense shine and easy to comb.',
@@ -644,7 +592,7 @@ export const ProdutosEnData = [
 		// imagem: '/img/produtos/produto32.jpg',
 	},
 	{
-		id: 40, // auto increment
+		id: 43, // auto increment
 		idproduto: 33,
 		title: 'POWER ANTI-FRIZZ - LEAVE-IN',
 		descricao: 'Power Anti-Frizz Facinnius is indicated to be applied before brushing, as it facilitates hair modeling, making the process up to three times faster than usual.  With silicone, keratin and tamariliz, a protective film is created around the  hair that guarantees hair mass replacement and efficient  heat protection, leaving the hair  with intense shine, silky and hydrated.',
@@ -655,7 +603,7 @@ export const ProdutosEnData = [
 		// imagem: '/img/produtos/produto33.jpg',
 	},
 	{
-		id: 41, // auto increment
+		id: 44, // auto increment
 		idproduto: 34,
 		title: 'REDUCER BIO ELIXIR - LEAVE-IN',
 		descricao: 'Reducer Bio Elixir Facinnius contains essential oils that act on the silkiness and hydration of the hair.  It has vitamins and nano-technological assets that replace proteins and lipids, leaving healthy hair hydrated and soft.',
@@ -671,7 +619,7 @@ export const ProdutosEnData = [
 
 
 	{
-		id: 42, // auto increment
+		id: 45, // auto increment
 		idproduto: 35,
 		title: 'BLACKBERRY SHAMPOO WITH POMEGRANATE',
 		descricao: 'Amora Shampoo with Pomegranate Facinnius, was developed with a special formula, helping in the treatment of hair, protecting, hydrating and with a lot of shine for much longer. Yields more than 330 applications. Exclusive for washbasins.',
@@ -681,7 +629,7 @@ export const ProdutosEnData = [
 		imagem: item35
 	},
 	{
-		id: 43, // auto increment
+		id: 46, // auto increment
 		idproduto: 35,
 		title: 'BLACKBERRY CONDITIONER WITH POMEGRANATE',
 		descricao: 'The Blackberry Conditioner with Pomegranate Facinnius, was developed with a special formula, helping in the treatment of hair, protecting and hydrating for much longer. Yields more than 330 applications. Exclusive for washbasins.',
@@ -694,7 +642,7 @@ export const ProdutosEnData = [
 
 
 	{
-		id: 44, // auto increment
+		id: 47, // auto increment
 		idproduto: 36,
 		title: 'RECOVERY SHAMPOO CUPUAÇU',
 		descricao: 'The Cupuaçu Facinnius Recovery Shampoo, has a special formula, leaving your hair light and loose, returning its natural shine. Yields more than 330 applications. Exclusive for washbasins.',
@@ -704,7 +652,7 @@ export const ProdutosEnData = [
 		imagem: item36
 	},
 	{
-		id: 45, // auto increment
+		id: 48, // auto increment
 		idproduto: 36,
 		title: 'CONDITIONER RECOVERY CUPUAÇU',
 		descricao: 'The Conditioner Recovery Cupuaçu Facinnius, has a special formula, leaving your hair light and loose, returning the natural shine. Yields more than 330 applications. Exclusive for washbasins.',
@@ -716,7 +664,7 @@ export const ProdutosEnData = [
 
 
 	{
-		id: 46, // auto increment
+		id: 49, // auto increment
 		idproduto: 37,
 		title: 'BLUEBERRY SHAMPOO WITH SEMI DE LINO',
 		descricao: 'The Blueberry Shampoo with Semi de Lino Facinnius, has a special formula, rich in nutrients and vitamins, leaving your hair hydrated, soft and revitalized with intense shine. Yields more than 330 applications. Exclusive for washbasins.',
@@ -726,7 +674,7 @@ export const ProdutosEnData = [
 		imagem: item37
 	},
 	{
-		id: 47, // auto increment
+		id: 50, // auto increment
 		idproduto: 37,
 		title: 'BLUEBERRY CONDITIONER WITH SEMI DE LINO',
 		descricao: 'The Blueberry Conditioner with Semi de Lino, has a special formula, rich in nutrients and vitamins, leaving your hair hydrated, soft and revitalized with intense shine. Yields more than 330 applications. Exclusive for washbasins.',
@@ -738,7 +686,7 @@ export const ProdutosEnData = [
 
 
 	{
-		id: 48, // auto increment
+		id: 51, // auto increment
 		idproduto: 38,
 		title: 'MINT SHAMPOO WITH MALLOW',
 		descricao: 'Mint Shampoo with Mallow Facinnius was developed in a special formula that also has antioxidant properties, keeping the strands hydrated and protected for longer. Yields more than 330 applications. Exclusive for washbasins.',
@@ -748,7 +696,7 @@ export const ProdutosEnData = [
 		imagem: item38
 	},
 	{
-		id: 49, // auto increment
+		id: 52, // auto increment
 		idproduto: 38,
 		title: 'MINT CONDITIONER WITH MALLOW',
 		descricao: 'The Mint Conditioner with Mallow Facinnius, was developed in a special formula that also has antioxidant properties, keeping the strands hydrated and protected for longer. Yields more than 330 applications. Exclusive for washbasins.',
@@ -759,7 +707,7 @@ export const ProdutosEnData = [
 	},
 
 	{ 
-		id: 50, // auto increment
+		id: 53, // auto increment
 		idproduto: 39,
 		title: 'SHAMPOO CRISTAL',
 		descricao: 'SHAMPOO CRISTAL FACINNIUS - It has an exclusive formula that provides clean, hydrated, soft strands with a differentiated shine, perfect for all types of hair, even the most fragile ones. Yields more than 330 applications. Exclusive for washbasins.',
