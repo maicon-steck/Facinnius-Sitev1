@@ -498,7 +498,7 @@ export const ProdutosBrData = [
       'Rico em aminoácidos, antioxidantes e lipídios, o reparador Ojon Facinnius  apresenta fórmula ideal para os cabelos muito ressecados e danificados  profundamente, pois age na fibra recuperando as células capilares. Garante brilho e resistência aos fios, evitando que eles se tornem quebradiços e opacos. INDICADO PARA CABELOS RESSECADOS, DANIFICADOS PROFUNDAMENTE E DIMINUIÇÃO DE FRIZZ.',
     filtros: ['HomeCare'],
     versões: 'Versão: 30ml - Home Care',
-    colecao: [item2_2],
+    colecao: [item29_2],
     imagem: item29_2
   },
 
