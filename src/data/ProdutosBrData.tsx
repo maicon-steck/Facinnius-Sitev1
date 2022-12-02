@@ -49,10 +49,10 @@ import item38 from '../../public/images/item38.png';
 import item38_1 from '../../public/images/item38_1.png';
 import item39 from '../../public/images/item39.png';
 import item28_1 from '../../public/images/item28_1.png';
-import item29_1 from '../../public/images/item29_1.png';
-import item30_1 from '../../public/images/item30_1.png';
 import item28_2 from '../../public/images/item28_2.png';
+import item29_1 from '../../public/images/item29_1.png';
 import item29_2 from '../../public/images/item29_2.png';
+import item30_1 from '../../public/images/item30_1.png';
 import item30_2 from '../../public/images/item30_2.png';
 
 export const ProdutosBrData = [
