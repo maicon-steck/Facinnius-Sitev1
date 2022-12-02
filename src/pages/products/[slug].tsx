@@ -1,26 +1,26 @@
-import { GetServerSideProps } from "next";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import { CardItem } from "../../components/CardItem";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import { getProdutcBr } from "../../lib/produtosBr";
-import { getProdutcEn } from "../../lib/produtosEn";
+import { GetServerSideProps } from 'next'
+import Image from 'next/image'
+import { useRouter } from 'next/router'
+import React, { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import { CardItem } from '../../components/CardItem'
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
+import { getProdutcBr } from '../../lib/produtosBr'
+import { getProdutcEn } from '../../lib/produtosEn'
 
 export default function Product({ productBr, productEn }) {
-  const router = useRouter();
-  const { t, i18n } = useTranslation();
+  const router = useRouter()
+  const { t, i18n } = useTranslation()
 
   const isBr = i18n.language === 'ptbr' ? productBr : productEn
-  const [filterProductsId, setFilterProductsId] = useState<any>({});
+  const [filterProductsId, setFilterProductsId] = useState<any>({})
 
   useEffect(() => {
     setFilterProductsId({
-      ...isBr.filter((obj: any) => obj.id === Number(router.query.id))[0],
-    });
-  }, [isBr]);
+      ...isBr.filter((obj: any) => obj.id === Number(router.query.id))[0]
+    })
+  }, [isBr])
 
   return (
     <>
@@ -50,10 +50,15 @@ export default function Product({ productBr, productEn }) {
 
               <div className="quality__data">
                 <h1 className="quality__title">{filterProductsId.title}</h1>
-                <p style={{ marginBottom: '1.5rem' }} className="quality__description">
+                <p
+                  style={{ marginBottom: '1.5rem' }}
+                  className="quality__description"
+                >
                   {filterProductsId.descricao}
                 </p>
-                <span style={{ fontSize: '16px' }} className="quality__price">{filterProductsId.versões}</span>
+                <span style={{ fontSize: '16px' }} className="quality__price">
+                  {filterProductsId.versões}
+                </span>
               </div>
             </div>
           </div>
@@ -62,17 +67,17 @@ export default function Product({ productBr, productEn }) {
         <Footer />
       </main>
     </>
-  );
+  )
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const productBr = getProdutcBr();
-  const productEn = getProdutcEn();
+  const productBr = getProdutcBr()
+  const productEn = getProdutcEn()
 
   return {
     props: {
       productBr: productBr,
-      productEn: productEn,
+      productEn: productEn
     }
   }
 }

@@ -1,23 +1,23 @@
-import Image from "next/image";
-import React, { useState, useEffect } from "react";
-import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
+import Image from 'next/image'
+import React, { useState, useEffect } from 'react'
+import { BiChevronLeft, BiChevronRight } from 'react-icons/bi'
 
 interface PropsImages {
-  images: any;
-  title: string;
-  isBorder?: boolean;
-  handleOnClick: () => void;
+  images: any
+  title: string
+  isBorder?: boolean
+  handleOnClick: () => void
 }
 
 export function CardItem({
   images,
   handleOnClick,
   title,
-  isBorder,
+  isBorder
 }: PropsImages) {
-  const slides = images;
-  const [current, setCurrent] = useState(0);
-  const length = slides?.length;
+  const slides = images
+  const [current, setCurrent] = useState(0)
+  const length = slides?.length
 
   // console.log('length', length)
   // console.log('current', current)
@@ -33,18 +33,18 @@ export function CardItem({
   // }, []);
 
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
+    setCurrent(current === length - 1 ? 0 : current + 1)
+  }
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
+    setCurrent(current === 0 ? length - 1 : current - 1)
+  }
 
   if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
+    return null
   }
   return (
-    <div className={`sliderContainer ${isBorder ? "isBorder" : null}`}>
+    <div className={`sliderContainer ${isBorder ? 'isBorder' : null}`}>
       <div className="sliderCarrosel">
         {length > 1 && (
           <>
@@ -60,9 +60,9 @@ export function CardItem({
         {images.map((row, index) => {
           return (
             <div
-              className={index === current ? "slideEdit active" : "slideEdit"}
+              className={index === current ? 'slideEdit active' : 'slideEdit'}
               key={index}
-              style={{ transitionDuration: "0.4s" }}
+              style={{ transitionDuration: '0.4s' }}
               onClick={handleOnClick}
             >
               {index === current && (
@@ -73,23 +73,23 @@ export function CardItem({
                   alt="uma imagem"
                   className="imageSlider"
                   style={{
-                    margin: "auto",
+                    margin: 'auto'
                   }}
                   objectFit={'contain'}
                 />
               )}
             </div>
-          );
+          )
         })}
       </div>
 
       <h2
         onClick={handleOnClick}
         className="slider-info"
-        style={{ textAlign: "center" }}
+        style={{ textAlign: 'center' }}
       >
         {title}
       </h2>
     </div>
-  );
+  )
 }

@@ -46,9 +46,13 @@ import item27 from '../../../public/images/item27.png'
 import item27_1 from '../../../public/images/item27_1.png'
 import item28 from '../../../public/images/item28.png'
 import item28_1 from '../../../public/images/item28_1.png'
+import item28_2 from '../../../public/images/item28_2.png'
 import item29 from '../../../public/images/item29.png'
 import item29_1 from '../../../public/images/item29_1.png'
+import item29_2 from '../../../public/images/item29_2.png'
 import item30 from '../../../public/images/item30.png'
+import item30_1 from '../../../public/images/item30_1.png'
+import item30_2 from '../../../public/images/item30_2.png'
 import item31 from '../../../public/images/item31.png'
 import item32 from '../../../public/images/item32.png'
 import item33 from '../../../public/images/item33.png'
@@ -166,10 +170,14 @@ export default function Products({ productEn, productBr }) {
             <Image src={item27_1} alt="testeImage" className="products__img" />
             <Image src={item28} alt="testeImage" className="products__img" />
             <Image src={item28_1} alt="testeImage" className="products__img" />
+            <Image src={item28_2} alt="testeImage" className="products__img" />
             <Image src={item29} alt="testeImage" className="products__img" />
             <Image src={item29} alt="testeImage" className="products__img" />
             <Image src={item29_1} alt="testeImage" className="products__img" />
+            <Image src={item29_2} alt="testeImage" className="products__img" />
             <Image src={item30} alt="testeImage" className="products__img" />
+            <Image src={item30_1} alt="testeImage" className="products__img" />
+            <Image src={item30_2} alt="testeImage" className="products__img" />
             <Image src={item31} alt="testeImage" className="products__img" />
             <Image src={item32} alt="testeImage" className="products__img" />
             <Image src={item33} alt="testeImage" className="products__img" />

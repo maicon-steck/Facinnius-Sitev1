@@ -1,20 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
-import { RiArrowRightLine } from "react-icons/ri";
-import Accordion from "../Accordion";
+import { RiArrowRightLine } from 'react-icons/ri'
+import Accordion from '../Accordion'
 
 export default function Categories({ lineBr, lineEn }) {
-  const { t, i18n } = useTranslation();
-
+  const { t, i18n } = useTranslation()
 
   return (
     <section className="new section" id="new">
       <h2 className="section__title">{t('home_linhas_produtos_title')}</h2>
 
       <div className="new__container container grid">
-
-          {/* {isBr.map((row: any) => (
+        {/* {isBr.map((row: any) => (
             <article key={row.id} className="new__card">
               <Image src={row.imagem} className="new__img" alt="teste" />
 
@@ -30,8 +28,8 @@ export default function Categories({ lineBr, lineEn }) {
                 </Link>
             </article>  
           ))} */}
-      <Accordion />
+        <Accordion />
       </div>
     </section>
-  );
+  )
 }

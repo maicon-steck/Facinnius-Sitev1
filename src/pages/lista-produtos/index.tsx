@@ -1,39 +1,39 @@
-import { GetStaticProps } from "next";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import React, { ChangeEvent, useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import { BiFilter } from "react-icons/bi";
-import { RiArrowRightLine } from "react-icons/ri";
-import { CardItem } from "../../components/CardItem";
-import Filtered from "../../components/Filtered";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
+import { GetStaticProps } from 'next'
+import Image from 'next/image'
+import { useRouter } from 'next/router'
+import React, { ChangeEvent, useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import { BiFilter } from 'react-icons/bi'
+import { RiArrowRightLine } from 'react-icons/ri'
+import { CardItem } from '../../components/CardItem'
+import Filtered from '../../components/Filtered'
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
 
 //DATA
-import { getProdutcBr } from "../../lib/produtosBr";
-import { getProdutcEn } from "../../lib/produtosEn";
+import { getProdutcBr } from '../../lib/produtosBr'
+import { getProdutcEn } from '../../lib/produtosEn'
 
 export default function ProductsList({ productBr, productEn }) {
-  const router = useRouter();
-  const { t, i18n } = useTranslation();
-  const [modal, setModal] = useState(false);
-  const [formData, setFormData] = useState<any>({});
+  const router = useRouter()
+  const { t, i18n } = useTranslation()
+  const [modal, setModal] = useState(false)
+  const [formData, setFormData] = useState<any>({})
 
-  useEffect(()=>{
-    if (router.query.linha === 'homecare')
-    {
-      setTimeout(()=>{
+  useEffect(() => {
+    if (router.query.linha === 'homecare') {
+      setTimeout(() => {
         setFilterLines(['HomeCare'])
-      },1000)
-    }else{
-      setTimeout(()=>{
+      }, 1000)
+    } else {
+      setTimeout(() => {
         setFilterLines(['Profissional'])
-      },1000)
+      }, 1000)
     }
-  },[router?.query])
+  }, [router?.query])
 
-  const isBr = i18n.language === "ptbr" ? productBr : productEn;
+  const isBr = i18n.language === 'ptbr' ? productBr : productEn
+
   const filterItems = isBr.filter(
     (obj: any) =>
       obj.filtros.includes(formData.sexo) ||
@@ -43,72 +43,72 @@ export default function ProductsList({ productBr, productEn }) {
       obj.filtros.includes(formData.desejoCabelo) ||
       obj.filtros.includes(formData.comprimento) ||
       obj.filtros.includes(formData.aspecto)
-  );
-  let verifiFilter = filterItems.length <= 0 ? isBr : filterItems;
+  )
+  let verifiFilter = filterItems.length <= 0 ? isBr : filterItems
 
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
 
   function handleOnClickProduct(id: any, title: string) {
-    var convertTitle = new URLSearchParams(title).toString();
-    var convertUnderline = convertTitle.replaceAll("+", "-");
+    var convertTitle = new URLSearchParams(title).toString()
+    var convertUnderline = convertTitle.replaceAll('+', '-')
 
     router.push({
       pathname: `/products/${convertUnderline}`,
-      query: { id },
-    });
+      query: { id }
+    })
   }
 
   useEffect(() => {
-    setData([...verifiFilter]);
-  }, [verifiFilter]);
+    setData([...verifiFilter])
+  }, [verifiFilter])
 
   useEffect(() => {
-    getFilterItems();
-  }, [formData]);
+    getFilterItems()
+  }, [formData])
 
   function handleSelectChange(event: ChangeEvent<HTMLSelectElement>) {
-    const { name, value } = event.target;
+    const { name, value } = event.target
 
-    setFormData({ ...formData, [name]: value });
+    setFormData({ ...formData, [name]: value })
   }
 
   function handleInputChange(event: ChangeEvent<HTMLInputElement>) {
-    const { name, value } = event.target;
+    const { name, value } = event.target
 
-    setFormData({ ...formData, [name]: value });
+    setFormData({ ...formData, [name]: value })
   }
 
   const getFilterItems = async () => {
-    var newFilter = formData as any;
-    var size = 0;
+    var newFilter = formData as any
+    var size = 0
     for (var key in newFilter) {
       if (newFilter[key]) {
-        size++;
+        size++
       } else {
-        delete newFilter[key];
+        delete newFilter[key]
       }
     }
 
     if (size > 0) {
-      var queryString = new URLSearchParams(newFilter).toString();
-      queryString += ``;
+      var queryString = new URLSearchParams(newFilter).toString()
+      queryString += ``
       router.push({
-        query: queryString,
-      });
+        query: queryString
+      })
     }
-  };
+  }
 
-  const [filterLines, setFilterLines] = useState<any[]>(["Profissional"]);
+  const [filterLines, setFilterLines] = useState<any[]>(['Profissional'])
 
   function handleOnChangeFilterLine(value) {
     const existing = value == filterLines
 
     console.log(existing)
-    if (existing){
+    if (existing) {
       setFilterLines([])
     } else {
       const newArray = []
-      value.map((row:any)=>{
+      value.map((row: any) => {
         newArray.push(row)
       })
       setFilterLines(newArray)
@@ -133,31 +133,28 @@ export default function ProductsList({ productBr, productEn }) {
     //     );
     //   }
     // }
-    
   }
 
   useEffect(() => {
-    let filterFilters = filterLines;
-    const newData = [];
-    filterFilters.map((filter) => {
+    let filterFilters = filterLines
+    const newData = []
+    filterFilters.map(filter => {
       if (
         verifiFilter.filter(
-          (obj) => obj.filtros.filter((filtro) => filtro === filter).length > 0
+          obj => obj.filtros.filter(filtro => filtro === filter).length > 0
         )
       ) {
         verifiFilter
           .filter(
-            (obj) =>
-              obj.filtros.filter((filtro) => filtro === filter).length > 0
+            obj => obj.filtros.filter(filtro => filtro === filter).length > 0
           )
-          .map((row) => {
-            newData.push(row);
-          });
+          .map(row => {
+            newData.push(row)
+          })
       }
-    });
-    setData([...newData]);
-    console.log('objeto que está virando o data',newData)
-  }, [filterLines]);
+    })
+    setData([...newData])
+  }, [filterLines])
 
   console.log(filterLines)
 
@@ -176,14 +173,14 @@ export default function ProductsList({ productBr, productEn }) {
           <div className="quality__container container">
             <div
               className="specialty__box"
-              style={{ gridTemplateColumns: "1fr" }}
+              style={{ gridTemplateColumns: '1fr' }}
             >
               <h2 className="section__titleSpecialty">
-                {t("produtos_titulo")}
+                {t('produtos_titulo')}
               </h2>
 
               <div className="listItems-group">
-                <h3>{t("produtos_subtitulo")}</h3>
+                <h3>{t('produtos_subtitulo')}</h3>
               </div>
             </div>
           </div>
@@ -191,86 +188,91 @@ export default function ProductsList({ productBr, productEn }) {
             <div className="filterItemsForLines">
               <label
                 className={
-                  filterLines.filter((obj) => obj === "Profissional").length > 0
-                    ? "active"
-                    : "normal"
+                  filterLines.filter(obj => obj === 'Profissional').length > 0
+                    ? 'active'
+                    : 'normal'
                 }
-                onClick={() => handleOnChangeFilterLine(["Profissional"])}
+                onClick={() => handleOnChangeFilterLine(['Profissional'])}
               >
-                <span>{t("produtos_button_linha")}</span>
+                <span>{t('produtos_button_linha')}</span>
               </label>
               <label
                 className={
-                  filterLines.filter((obj) => obj === "HomeCare").length > 0
-                    ? "active"
-                    : "normal"
+                  filterLines.filter(obj => obj === 'HomeCare').length > 0
+                    ? 'active'
+                    : 'normal'
                 }
-                onClick={() => handleOnChangeFilterLine(["HomeCare"])}
+                onClick={() => handleOnChangeFilterLine(['HomeCare'])}
               >
                 <span>Home Care</span>
               </label>
               <label
                 className={
-                  (filterLines.includes('HomeCare') && filterLines.includes("Profissional"))
-                    ? "active"
-                    : "normal"
+                  filterLines.includes('HomeCare') &&
+                  filterLines.includes('Profissional')
+                    ? 'active'
+                    : 'normal'
                 }
-                onClick={() => handleOnChangeFilterLine(["HomeCare", "Profissional"])}
+                onClick={() =>
+                  handleOnChangeFilterLine(['HomeCare', 'Profissional'])
+                }
               >
-                <span>{t("produtos_button_linha_todos")}</span>
+                <span>{t('produtos_button_linha_todos')}</span>
               </label>
             </div>
-
-            
           </div>
 
           <div
             className="new__container container grid"
-            style={{ marginTop: "4rem" }}
+            style={{ marginTop: '4rem' }}
           >
-            {data.map((row) => (
-              // <article className="new__card" key={row.id}>
-              //   <Image src={row.imagem} className="new__img" alt={row.title} />
+            {data.map(row => {
+              console.log('coleção', row?.colecao[0].src)
+              return (
+                // <article className="new__card" key={row.id}>
+                //   <Image src={row.imagem} className="new__img" alt={row.title} />
 
-              //   <button
-              //     onClick={() => handleOnClickProduct(row.id, row.title)}
-              //     className="new__link"
-              //     style={{ width: '100%' }}
-              //   >
-              //     <div className="new__data">
-              //       <h2 className="new__title">{row.title}</h2>
-              //       {/* <span className="new__subtitle">{row.title}</span> */}
-              //     </div>
+                //   <button
+                //     onClick={() => handleOnClickProduct(row.id, row.title)}
+                //     className="new__link"
+                //     style={{ width: '100%' }}
+                //   >
+                //     <div className="new__data">
+                //       <h2 className="new__title">{row.title}</h2>
+                //       {/* <span className="new__subtitle">{row.title}</span> */}
+                //     </div>
 
-              //     <i className="ri-arrow-right-line">
-              //       <RiArrowRightLine />
-              //     </i>
-              //   </button>
-              // </article>
+                //     <i className="ri-arrow-right-line">
+                //       <RiArrowRightLine />
+                //     </i>
+                //   </button>
+                // </article>
 
-              <CardItem
-                handleOnClick={() => handleOnClickProduct(row.id, row.title)}
-                images={row.colecao}
-                title={row.title}
-                isBorder
-              />
-            ))}
+                <CardItem
+                  key={row}
+                  handleOnClick={() => handleOnClickProduct(row.id, row.title)}
+                  images={row.colecao}
+                  title={row.title}
+                  isBorder
+                />
+              )
+            })}
           </div>
         </section>
         <Footer />
       </main>
     </>
-  );
+  )
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const productBr = getProdutcBr();
-  const productEn = getProdutcEn();
+  const productBr = getProdutcBr()
+  const productEn = getProdutcEn()
 
   return {
     props: {
       productBr: productBr,
-      productEn: productEn,
-    },
-  };
-};
+      productEn: productEn
+    }
+  }
+}
