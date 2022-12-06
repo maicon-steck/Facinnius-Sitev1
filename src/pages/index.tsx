@@ -33,15 +33,19 @@ export default function Home({
       <Header />
       <main className="main">
         <Main />
-        <LineSeparator/>
+        <LineSeparator
+        margin
+        />
         <Speciality />
 
         {/* <Categories lineBr={lineBr} lineEn={lineEn} /> */}
         <Collection />
-        <LineSeparator/>
+        <LineSeparator
+        margin/>
 
         <Products productEn={productEn} productBr={productBr} />
-        <LineSeparator/>
+        <LineSeparator
+        margin={false}/>
 
         <Duvidas questionBr={questionBr} questionEn={questionEn} />
         {/* <Blog blogBr={blogBr} blogEn={blogEn}/> */}

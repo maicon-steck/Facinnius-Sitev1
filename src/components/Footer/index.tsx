@@ -121,7 +121,7 @@ export default function Footer() {
                 className="footer__social-link"
               >
                 <i className="ri-facebook-fill">
-                  <RiFacebookFill />
+                  <RiFacebookFill  color="C59B35"/>
                 </i>
               </a>
               <a
@@ -131,7 +131,7 @@ export default function Footer() {
                 className="footer__social-link"
               >
                 <i className="ri-instagram-line">
-                  <RiInstagramFill />
+                  <RiInstagramFill color="C59B35" />
                 </i>
               </a>
 
@@ -142,7 +142,7 @@ export default function Footer() {
                 className="footer__social-link"
               >
                 <i className="ri-whatsapp-line">
-                  <RiYoutubeFill />
+                  <RiYoutubeFill color="C59B35" />
                 </i>
               </a>
 
@@ -153,7 +153,7 @@ export default function Footer() {
                 className="footer__social-link"
               >
                 <i className="ri-whatsapp-line">
-                  <IoLogoTiktok size={18} />
+                  <IoLogoTiktok size={18} color="C59B35" />
                 </i>
               </a>
             </ul>
