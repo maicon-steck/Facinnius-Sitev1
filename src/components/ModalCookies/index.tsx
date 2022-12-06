@@ -13,7 +13,7 @@ const ModalCookies = () => {
   }, []);
 
   async function handleCookie() {
-    const cookie = setCookie("authorization", "authorized");
+    const cookie = setCookie("authorization", "authorized"); 
     setCookieTrue(true);
   }
 
