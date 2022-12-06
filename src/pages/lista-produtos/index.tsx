@@ -245,14 +245,17 @@ export default function ProductsList({ productBr, productEn }) {
                 //     </i>
                 //   </button>
                 // </article>
-
-                <CardItem
-                  key={row}
-                  handleOnClick={() => handleOnClickProduct(row.id, row.title)}
-                  images={row.colecao}
-                  title={row.title}
-                  isBorder
-                />
+                <a style={{ cursor: 'pointer' }}>
+                  <CardItem
+                    key={row}
+                    handleOnClick={() =>
+                      handleOnClickProduct(row.id, row.title)
+                    }
+                    images={row.colecao}
+                    title={row.title}
+                    isBorder
+                  />
+                </a>
               )
             })}
           </div>
