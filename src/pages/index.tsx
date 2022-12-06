@@ -41,6 +41,8 @@ export default function Home({
         <LineSeparator/>
 
         <Products productEn={productEn} productBr={productBr} />
+        <LineSeparator/>
+
         <Duvidas questionBr={questionBr} questionEn={questionEn} />
         {/* <Blog blogBr={blogBr} blogEn={blogEn}/> */}
         <Footer />

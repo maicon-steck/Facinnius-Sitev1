@@ -9,9 +9,9 @@ export default function Duvidas({ questionBr, questionEn }) {
   console.log('verify', verify)
 
   return (
-    <section className="new section container" id="new">
-      <h2 className="section__title" style={{ marginBottom: '14px' }}>{t('duvidas_titulo')}</h2>
-      <span className="new__sub">{t('duvidas_subtitulo')}</span>
+    <section className="new section container " id="new">
+
+      <h2 className="section__titleSpecialty" style={{ marginBottom: '14px' }}>{t('duvidas_titulo')} <span className='section__titleSpecialty__subtitle'>{t('duvidas_subtitulo')}</span></h2>
       {/* <div className="new__container container grid"> */}
         <Accordion question={verify}  />
       {/* </div> */}

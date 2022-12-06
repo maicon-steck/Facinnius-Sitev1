@@ -1,58 +1,66 @@
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container{
-    max-width: 1024px;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+.container {
+  max-width: 1024px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  
 }
 
-.grid{
-    display: grid;
-    gap: 1.5rem;
+.grid {
+  display: grid;
+  gap: 1.5rem;
 }
 
-.section{
-    padding: 4.5rem 0 2rem;
+.section {
+  padding: 4.5rem 0 2rem;
 
-    &__title{
-        font-size: var(--h1-font-size);
-        text-align: center;
-        margin-bottom: 3rem;
-    }
+  
 
-    &__titleSpecialty{
-        position: relative;
-        font-size: 32px;
-        padding-left: 1.25rem;
-        margin-bottom: 2.5rem;
-        font-weight: 600;
-
-        &::before{
-            content: '';
-            position: absolute;
-            top: 8px;
-            left: 0;
-            width: 3px;
-            height: 20px;
-            background-color: var(--first-color);
-        }
-    }
-}
-
-.main{
-    overflow: hidden; /* For animation ScrollReveal */
-}
-
-.flex_center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.text_center{
+  &__title {
+    font-size: var(--h1-font-size);
     text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__titleSpecialty {
+    position: relative;
+    font-size: 32px;
+    padding-left: 1.25rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+
+    &__subtitle {
+      font-size: 32px;
+      margin-bottom: 2.5rem;
+      font-weight: 400;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 3px;
+      height: 20px;
+      background-color: var(--first-color);
+    }
+  }
 }
 
-.text_justify{
-    text-align: justify;
+.main {
+  overflow: hidden; /* For animation ScrollReveal */
 }
 
+.flex_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_justify {
+  text-align: justify;
+}
