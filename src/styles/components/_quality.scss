@@ -33,7 +33,9 @@
         margin-right: 8px;
       }
       &.active {
-        background-color: var(--cor-10);
+        background-color: #C59B35;
+        border: 1px solid var(--cor-1);
+
         span {
           color: #fff;
         }
