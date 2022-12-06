@@ -274,7 +274,6 @@ export default function Products({ productEn, productBr }) {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      background: "#f5f6f8",
                       justifyContent: "center",
                       flexDirection: "column",
                     }}
