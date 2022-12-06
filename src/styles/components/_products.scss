@@ -1,5 +1,11 @@
 /*=============== PRODUCTS ===============*/
 .products{
+    &__titleArea{
+        display: flex;
+        height: 48px;
+        justify-content: space-between;
+        margin-bottom: 42px;
+    }
     &__container{
         padding-bottom: 5rem;
     }

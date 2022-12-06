@@ -35,8 +35,11 @@ export default function Home({
         <Main />
         <LineSeparator/>
         <Speciality />
+
         {/* <Categories lineBr={lineBr} lineEn={lineEn} /> */}
         <Collection />
+        <LineSeparator/>
+
         <Products productEn={productEn} productBr={productBr} />
         <Duvidas questionBr={questionBr} questionEn={questionEn} />
         {/* <Blog blogBr={blogBr} blogEn={blogEn}/> */}
