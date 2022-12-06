@@ -156,8 +156,6 @@ export default function ProductsList({ productBr, productEn }) {
     setData([...newData])
   }, [filterLines])
 
-  console.log(filterLines)
-
   return (
     <>
       <Header />
