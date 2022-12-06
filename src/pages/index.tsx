@@ -5,6 +5,7 @@ import Collection from '../components/Collection'
 import Duvidas from '../components/Duvidas'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import LineSeparator from '../components/LineSeparator'
 import Main from '../components/Main'
 import ModalCookies from '../components/ModalCookies'
 import Products from '../components/Products'
@@ -32,6 +33,7 @@ export default function Home({
       <Header />
       <main className="main">
         <Main />
+        <LineSeparator/>
         <Speciality />
         {/* <Categories lineBr={lineBr} lineEn={lineEn} /> */}
         <Collection />

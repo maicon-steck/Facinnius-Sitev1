@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import Speciality1 from "../../../public/images/speciality1.png";
 import Speciality2 from "../../../public/images/speciality2.png";
 import Speciality3 from "../../../public/images/speciality3.png";
+import LineSeparator from "../LineSeparator";
 
 export default function Speciality() {
   const { t } = useTranslation();
@@ -13,6 +14,7 @@ export default function Speciality() {
   return (
     <div className="specialty section container headline" id="specialty">
       <div className="specialty__container">
+
         <div className="specialty__box">
           <h2 className="section__titleSpecialty">
             {t('home_especialidades_text')}
