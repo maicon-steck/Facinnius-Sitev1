@@ -9,6 +9,12 @@
     transition: .4s;
 }
 
+.elementLine{
+    height: 1px;
+    background-color: #EEEEEE;
+    width: 100%;
+}
+
 .nav{
     height: var(--header-height);
     display: flex;
