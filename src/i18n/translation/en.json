@@ -142,6 +142,10 @@
     "politica_cookies_pt_3": "<p> <span> <strong>1.4</strong> It is possible for you to manage Cookies preferences and other similar technologies from your browser configuration, refusing or deleting some of them. However, this option may compromise the Services of our website or prevent the operation of certain functionalities that are part of the Services. </span> </p>",
     
     "modal_cookies": "<div>By accessing the site, you agree to the use of cookies to improve your browsing experience. To learn more, visit: <span><Link><a href='cookies' target='_blank'><strong>Our Cookie Policy.</strong></a></Link></span></div>",
-    "modal_cookies_button": "I Accept"
+    "modal_cookies_button": "I Accept",
+
+    "line_upperCase": "LINE ",
+    "profissional_upperCase": "PROFESSIONAL",
+    "homeCare_upperCase" : "HOMECARE"
   }
 }

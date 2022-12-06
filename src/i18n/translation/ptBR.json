@@ -142,6 +142,10 @@
     "politica_cookies_pt_3": " <div className=\"politica container\"> <div id=\"wa-comptext-kdp3kgp98xm6w0\"> <p> <span> <strong>1.4</strong> É possível que você gerencie preferências de Cookies e outras tecnologias semelhantes a partir da configuração de seu navegador, recusando ou excluindo alguns deles. No entanto, essa opção poderá comprometer os Serviços do nosso site ou impedir o funcionamento de determinadas funcionalidades que integram os Serviços. </span> </p> </div> </div>",
 
     "modal_cookies": "<div>Ao acessar o site você concorda com o uso de cookies para melhorar a sua experiência de navegação. Para saber mais acesse: <span><Link><a href='cookies' target='_blank'><strong>Política de Cookies</strong></a></Link></span></div>",
-    "modal_cookies_button": "Entendi"
+    "modal_cookies_button": "Entendi",
+
+    "line_upperCase": "LINHA ",
+    "profissional_upperCase": "PROFISSIONAL",
+    "homeCare_upperCase" : "HOMECARE"
   }
 }
