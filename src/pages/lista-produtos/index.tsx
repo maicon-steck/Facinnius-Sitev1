@@ -168,7 +168,7 @@ export default function ProductsList({ productBr, productEn }) {
       />
       <main className="main">
         <section className="quality section" id="premium">
-          <div className="quality__container container">
+          <div className="quality__container container firstSection">
             <div
               className="specialty__box"
               style={{ gridTemplateColumns: '1fr' }}

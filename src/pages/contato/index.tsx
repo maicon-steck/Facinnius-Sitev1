@@ -66,7 +66,7 @@ export default function Contato() {
       <Header />
       <main className="main">
         <section
-          className={`quality section ${
+          className={`quality section firstSection ${
             typeof window !== 'undefined' &&
             window?.innerWidth < 800 &&
             'marginTop'

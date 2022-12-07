@@ -102,7 +102,7 @@ export default function Main() {
           }}
           modules={[Autoplay, Pagination]}
           onActiveIndexChange={(i) => setActiveBanner(i.realIndex)}
-          className="mySwiper swipperHome"
+          className="mySwiper swipperHome firstSection"
         >
           {verify.map((row, key) => (
             <div >
