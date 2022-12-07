@@ -1,5 +1,16 @@
 /*=============== PRODUCTS ===============*/
 .products{
+    position: relative;
+    overflow: hidden;
+
+    &__logosvg{
+        position: absolute;
+        height: 1074px;
+        width: 1074px;
+        left: -200px;
+        top: 50px;
+        z-index:-1;
+    }
     &__titleArea{
         display: flex;
         height: 48px;
