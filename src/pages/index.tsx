@@ -33,19 +33,22 @@ export default function Home({
       <Header />
       <main className="main">
         <Main />
-        <LineSeparator
-        margin
-        />
+
+        <div className="flex_center container">
+          <h2 className="container text_slogan">
+            Se encante, se permita, seja <span>FACINNIUS.</span>
+          </h2>
+        </div>
+
+        <LineSeparator margin />
         <Speciality />
 
         {/* <Categories lineBr={lineBr} lineEn={lineEn} /> */}
         <Collection />
-        <LineSeparator
-        margin/>
+        <LineSeparator margin />
 
         <Products productEn={productEn} productBr={productBr} />
-        <LineSeparator
-        margin={false}/>
+        <LineSeparator margin={false} />
 
         <Duvidas questionBr={questionBr} questionEn={questionEn} />
         {/* <Blog blogBr={blogBr} blogEn={blogEn}/> */}

@@ -56,6 +56,19 @@
 
 .main {
   overflow: hidden; /* For animation ScrollReveal */
+  
+  .text_slogan{
+    margin-top: 30px;
+    font-size: 30px;
+    color: var(--cor-12);
+    font-weight: 500;
+    font-family: var(--body-font);
+    span{
+      color: var(--cor-p2);
+      font-weight: 700;
+
+    }
+  }
 }
 
 .flex_center {
