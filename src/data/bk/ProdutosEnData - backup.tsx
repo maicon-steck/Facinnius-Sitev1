@@ -148,7 +148,7 @@ export const ProdutosEnData = [
 		idproduto: 4,
 		title: 'BIO KERATRIX HYDRATATION MASK',
 		descricao: 'It contains a larger amount of D-panthenol than is commonly used in addition to keratin.   Recommended for those looking for an impeccable and durable smooth. Its formulation prevents the appearance of split ends, improves the texture of the hair and contributes to the thickening of the hair, offering more strength and shine to the locks.',
-		filtros: ['HomeCare'],
+		filtros: ['HomeCare'],   
 		versões: 'Version: Fl.oz 8,81  – Home Care',
 		colecao: [item4],
 		imagem: item4
@@ -159,7 +159,7 @@ export const ProdutosEnData = [
 		idproduto: 4,
 		title: 'BIO KERATRIX HYDRATATION MASK',
 		descricao: 'It contains a larger amount of D-panthenol than is commonly used in addition to keratin.   Recommended for those looking for an impeccable and durable smooth. Its formulation prevents the appearance of split ends, improves the texture of the hair and contributes to the thickening of the hair, offering more strength and shine to the locks.',
-		filtros: ['Profissional'],
+		filtros: ['Profissional'],   
 		versões: 'Version: Fl.oz 35.27 - Professional',
 		colecao: [item4_1],
 		imagem: item4_1
@@ -174,7 +174,7 @@ export const ProdutosEnData = [
 		idproduto: 5,
 		title: 'HYDRATATION MASK INFINITY ONE GOLD',
 		descricao: 'It contains an exclusive formula composed of proteins and structural amino acids (Seine, Glutamic Acid and Cysteine), performing Biomimetic repair.  Its main asset ReparAge penetrates deeply into the hair promoting the increase in the diameter of the hair with prolonged use of the product.  With Pro Filler effect that repairs the natural aging of the hair leaving it as new, helping in capillary reconstruction, with antioxidant that repairs, prevents the aging of the hair.  Hair with a silky touch keeping it frizz-free.',
-		filtros: ['HomeCare'],
+		filtros: ['HomeCare'], 
 		versões: 'Version: Fl.oz 8,81 – Home Care',
 		colecao: [item5],
 		imagem: item5
@@ -185,7 +185,7 @@ export const ProdutosEnData = [
 		idproduto: 5,
 		title: 'HYDRATATION MASK INFINITY ONE GOLD',
 		descricao: 'It contains an exclusive formula composed of proteins and structural amino acids (Seine, Glutamic Acid and Cysteine), performing Biomimetic repair.  Its main asset ReparAge penetrates deeply into the hair promoting the increase in the diameter of the hair with prolonged use of the product.  With Pro Filler effect that repairs the natural aging of the hair leaving it as new, helping in capillary reconstruction, with antioxidant that repairs, prevents the aging of the hair.  Hair with a silky touch keeping it frizz-free.',
-		filtros: ['Profissional'],
+		filtros: ['Profissional'], 
 		versões: 'Version: Fl.oz 35.27 - Professional',
 		colecao: [item5_1],
 		imagem: item5_1
@@ -200,8 +200,8 @@ export const ProdutosEnData = [
 		idproduto: 6,
 		title: 'INFINITY ONE GOLD SHAMPOO',
 		descricao: 'It contains a blend of keratin amino acids, nutrients and proteins that provide benefits such as shine, hydration, silkiness, helping to control volume and frizz.',
-		filtros: ['Profissional', 'HomeCare'],
-		versões: 'Version: Fl.oz 33,81 - Home Care/Professional',
+		filtros: ['Profissional'],
+		versões: 'Version: Fl.oz 33,81 - Professional',
 		colecao: [item6],
 		imagem: item6
 		// imagem: '/img/produtos/produto6.jpg',
@@ -216,7 +216,7 @@ export const ProdutosEnData = [
 		filtros: ['HomeCare'],
 		versões: 'Verses: Fl.oz 10,14 | Fl.oz 33,81 - Home Care',
 		colecao: [item8, item8_1, item8_2],
-		imagem: item8
+       imagem: item8
 		// imagem: '/img/produtos/produto8.jpg',
 	},
 
@@ -232,7 +232,7 @@ export const ProdutosEnData = [
 		filtros: ['Profissional'],
 		versões: 'Version: Fl.oz 33,81 - Professional',
 		colecao: [item9],
-		imagem: item9
+        imagem: item9
 		// imagem: '/img/produtos/produto9.jpg',
 	},
 
@@ -246,7 +246,7 @@ export const ProdutosEnData = [
 		filtros: ['Profissional'],
 		versões: 'Version: Fl.oz 33,81 - Professional',
 		colecao: [item10],
-		imagem: item10
+        imagem: item10
 		// imagem: '/img/produtos/prod20.jpg',
 	},
 
@@ -256,7 +256,7 @@ export const ProdutosEnData = [
 		idproduto: 11,
 		title: 'OX DEVELOPER EMULSION',
 		descricao: 'The OX Facinnius Revealing Emulsion has 5 different volumes (05%, 10%, 20%, 30%, 40%) and was designed to be used in conjunction with bleaching and coloring, enhancing its action.  It comes in a cream texture and contains amino acids that restore the hair properties that are lost during chemical processes, keeping the hair hydrated and preventing the wires from  fraying.',
-		filtros: ['Profissional'],
+		filtros: ['Profissional'], 
 		versões: 'Version: Fl.oz 30,43 - Professional',
 		colecao: [item11],
 		imagem: item11
@@ -269,10 +269,10 @@ export const ProdutosEnData = [
 		idproduto: 12,
 		title: 'DESCOLOR DUST FREE',
 		descricao: 'The Dust Free technology prevents the powder from dispersing during application and allows high adherence of the product to the thread.  Able to lighten up to 7 tones, the Descolor Easy Facinnius, presents in its formula keratin and wheat germ, which after absorbed, hydrates and repairs the hair. Suitable for all hair types and recommended for various lightening techniques.',
-		filtros: ['Profissional'],
+		filtros: ['Profissional'], 
 		versões: 'Version: Fl.oz 17,63 - Professional',
 		colecao: [item12],
-		imagem: item12
+       imagem: item12
 		// imagem: '/img/produtos/prod22.jpg',
 	},
 
@@ -283,7 +283,7 @@ export const ProdutosEnData = [
 		idproduto: 13,
 		title: 'DESCOLOR WHITE BLEACHING POWDER',
 		descricao: 'The Descolor Facinnius  lightens up to 9 shades with extreme safety and flexibility for the professional.  Facinnius created the exclusive K-COMPLEX technology that has several treatment substances that preserve the hair s moisture, maintaining its structure.  Controlled discoloration to be used in all application techniques.',
-		filtros: ['Profissional'],
+		filtros: ['Profissional'], 
 		versões: 'Version: Fl.oz 17,63 - Professional',
 		colecao: [item13],
 		imagem: item13
@@ -294,7 +294,7 @@ export const ProdutosEnData = [
 		idproduto: 13,
 		title: 'DESCOLOR EASY BLEACHING POWDER',
 		descricao: 'The Descolor Facinnius  lightens up to 9 shades with extreme safety and flexibility for the professional.  Facinnius created the exclusive K-COMPLEX technology that has several treatment substances that preserve the hair s moisture, maintaining its structure.  Controlled discoloration to be used in all application techniques.',
-		filtros: ['Profissional'],
+		filtros: ['Profissional'], 
 		versões: 'Version: Fl.oz 17,63 - Professional',
 		colecao: [item13_1],
 		imagem: item13_1
@@ -337,7 +337,7 @@ export const ProdutosEnData = [
 		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care',
 		colecao: [item16],
-		imagem: item16
+		imagem: item16    
 		// imagem: '/img/produtos/prod26.jpg',
 	},
 
@@ -415,7 +415,7 @@ export const ProdutosEnData = [
 		filtros: ['HomeCare', 'Profissional'],
 		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item22],
-		imagem: item22
+        imagem: item22
 		// imagem: '/img/produtos/produto22.jpg',
 	},
 
@@ -428,7 +428,7 @@ export const ProdutosEnData = [
 		filtros: ['HomeCare', 'Profissional'],
 		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item23],
-		imagem: item23
+        imagem: item23
 		// imagem: '/img/produtos/produto23.jpg',
 	},
 
@@ -524,7 +524,7 @@ export const ProdutosEnData = [
 	{
 		id: 37, // auto increment
 		idproduto: 29,
-		title: 'REPAIRMAN - OJON',
+		title: 'REPAIRMAN - OJON', 
 		descricao: 'Rich in amino acids, antioxidants and lipids, the repairer Ojon Facinnius presents an ideal formula for very dry and deeply damaged hair, as it acts on the fiber recovering hair cells.  It guarantees shine and resistance to the hair , preventing it  from becoming brittle and opaque.',
 		filtros: ['Profissional'],
 		versões: 'Version: Fl.oz 3,84 - Professional',
@@ -535,7 +535,7 @@ export const ProdutosEnData = [
 	{
 		id: 38, // auto increment
 		idproduto: 29,
-		title: 'REPAIRMAN - OJON',
+		title: 'REPAIRMAN - OJON', 
 		descricao: 'Rich in amino acids, antioxidants and lipids, the repairer Ojon Facinnius presents an ideal formula for very dry and deeply damaged hair, as it acts on the fiber recovering hair cells.  It guarantees shine and resistance to the hair , preventing it  from becoming brittle and opaque.',
 		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 1,01 - Home Care',
@@ -577,7 +577,7 @@ export const ProdutosEnData = [
 		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care',
 		colecao: [item31],
-		imagem: item31
+        imagem: item31
 		// imagem: '/img/produtos/produto31.jpg',
 	},
 	{
@@ -588,7 +588,7 @@ export const ProdutosEnData = [
 		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care',
 		colecao: [item32],
-		imagem: item32
+        imagem: item32
 		// imagem: '/img/produtos/produto32.jpg',
 	},
 	{
@@ -599,7 +599,7 @@ export const ProdutosEnData = [
 		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care',
 		colecao: [item33],
-		imagem: item33
+        imagem: item33
 		// imagem: '/img/produtos/produto33.jpg',
 	},
 	{
@@ -610,7 +610,7 @@ export const ProdutosEnData = [
 		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care',
 		colecao: [item34],
-		imagem: item34
+        imagem: item34
 		// imagem: '/img/produtos/produto34.jpg',
 	},
 
@@ -706,7 +706,7 @@ export const ProdutosEnData = [
 		imagem: item38_1
 	},
 
-	{
+	{ 
 		id: 53, // auto increment
 		idproduto: 39,
 		title: 'SHAMPOO CRISTAL',
