@@ -5,6 +5,7 @@ import { ToastContainer } from 'react-toastify'
 import i18n from '../i18n'
 import Head from 'next/head'
 import ModalCookies from '../components/ModalCookies'
+import WppBtn from '../components/WppBtn'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=500px,user-scalable=no" />
       </Head>
       <Component {...pageProps} />
+      <WppBtn />
       <ToastContainer />
       <ModalCookies />
     </>
