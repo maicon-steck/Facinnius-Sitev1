@@ -1,3 +1,4 @@
+import { t } from 'i18next'
 import { GetServerSideProps, GetStaticProps } from 'next'
 import { parseCookies } from 'nookies'
 import Blog from '../components/Blog'
@@ -35,11 +36,11 @@ export default function Home({
         <Main />
 
         <div className="flex_center container">
-          <h2 className="container text_slogan">
-            Se encante, se permita, seja <span>FACINNIUS.</span>
-          </h2>
+          <h2
+            className="container text_slogan"
+            dangerouslySetInnerHTML={{ __html: t('facinnius_slogan') }}
+          />
         </div>
-
         <LineSeparator margin />
         <Speciality />
 
