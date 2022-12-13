@@ -53,6 +53,8 @@ export default function Home({
 
         <Duvidas questionBr={questionBr} questionEn={questionEn} />
         {/* <Blog blogBr={blogBr} blogEn={blogEn}/> */}
+        <LineSeparator margin={false} />
+
         <Footer />
       </main>
     </>
