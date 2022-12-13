@@ -17,6 +17,10 @@
     border-radius: 20px;
     position: relative;
 
+    span{
+      border-radius: 20px;
+    }
+
     &__lineNameLeft {
       position: absolute;
       bottom: 0;
@@ -62,6 +66,8 @@
         width: 100%;
     }
   }
+
+  
 
   // &__container{
   //     position: relative;

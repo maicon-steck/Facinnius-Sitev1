@@ -39,7 +39,12 @@ export default function Collection() {
       <div className="collection__line">
         <Link href={'/lista-produtos?linha=homecare'}>
           <a>
-            <Image src={homecare} layout="fill" objectFit="cover" />
+            <Image
+              src={homecare}
+              layout="fill"
+              objectFit="cover"
+              className="collection__imageBg"
+            />
             <div className="collection__line__lineNameRight">
               <h3 className="collection__line__text">
                 {t('line_upperCase')}
