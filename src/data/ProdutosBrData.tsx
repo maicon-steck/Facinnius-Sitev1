@@ -559,8 +559,8 @@ export const ProdutosBrData = [
 		idproduto: 31,
 		title: 'ATIVADOR DE CACHOS - LEAVE-IN',
 		descricao: 'O Ativador de Cachos Facinnius apresenta uma fórmula única que modela, nutre e hidrata os cachos. Possui filtro UVA para uma proteção extra contra os danos causados pelos raios solares. Indicado para todos os tipos de cachos e ondulações, também mantém os cabelos disciplinados, com movimento e protegidos diariamente. INDICADO PARA CABELOS CACHEADOS E ONDULADOS.',
-		filtros: ['HomeCare'],
-		versões: 'Versão: 300ml – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Versão: 300ml – Home Care/Profissional',
 		colecao: [item31],
 		imagem: item31
 	},
@@ -569,8 +569,8 @@ export const ProdutosBrData = [
 		idproduto: 32,
 		title: 'LEITE SILICONADO HIDRATANTE MAR E PISCINA - LEAVE-IN',
 		descricao: 'Sua fórmula especial rica em nutrientes vitaminas, aminoácidos e silicones, é indicada para a proteção de banho de mar e piscina. Protege os fios do cloro, da água salgada e do sol, deixando seus cabelos macios, com brilho intenso e fáceis de pentear. INDICADO PARA TODOS OS TIPOS DE CABELO PROTEÇÃO MAXIMA UVA/UVB.',
-		filtros: ['HomeCare'],
-		versões: 'Versão: 300ml – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Versão: 300ml – Home Care/Profissional',
 		colecao: [item32],
 		imagem: item32
 	},
@@ -579,8 +579,8 @@ export const ProdutosBrData = [
 		idproduto: 33,
 		title: 'POWER ANTI-FRIZZ - LEAVE-IN',
 		descricao: 'O Power Anti-Frizz Facinnius é indicado para ser aplicado antes da escovação, pois facilita a modelagem dos cabelos, tornando o processo até três vezes mais rápido que o habitual. Com silicone, queratina e tamariliz, é criada uma película protetora em torno dos fios que garante reposição da massa capilar e proteção térmica eficiente, deixando os fios com brilho intenso, sedosos e hidratados. INDICADO PARA FACILITAR A ESCOVA EM 3 VEZES MAIS RAPIDEZ E PARA PROTEÇÃO UVA/UVB.',
-		filtros: ['HomeCare'],
-		versões: 'Versão: 300ml – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Versão: 300ml – Home Care/Profissional',
 		colecao: [item33],
 		imagem: item33
 	},
@@ -589,8 +589,8 @@ export const ProdutosBrData = [
 		idproduto: 34,
 		title: 'REDUCER BIO ELIXIR - LEAVE-IN',
 		descricao: 'O Reducer Bio Elixir Facinnius contém óleos essenciais que atuam na sedosidade e hidratação dos fios. Possui vitaminas e ativos nano tecnológicos que repõem as proteínas e lipídios, deixando os cabelos saudáveis hidratados e macios. INDICADO PARA REPOSITOR DE PROTEÍNA, LIPÍDIO E  PROTETOR UVA/UVB.',
-		filtros: ['HomeCare'],
-		versões: 'Versão: 300ml – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Versão: 300ml – Home Care/Profissional',
 		colecao: [item34],
 		imagem: item34
 	},

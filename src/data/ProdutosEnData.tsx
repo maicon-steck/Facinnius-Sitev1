@@ -590,41 +590,38 @@ export const ProdutosEnData = [
 		idproduto: 31,
 		title: 'CURL ACTIVATOR - LEAVE-IN',
 		descricao: 'Facinnius Curl Activator features a unique formula that shapes, nourishes and moisturizes curls.  It has a UVA filter for extra protection against damage caused by the sun s rays.  Indicated for all types of curls and waves, it also keeps hair disciplined, with movement and protected daily.',
-		filtros: ['HomeCare'],
-		versões: 'Version: Fl.oz 10,14 – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item31],
 		imagem: item31
-		// imagem: '/img/produtos/produto31.jpg',
 	},
 	{
 		id: 43, // auto increment
 		idproduto: 32,
 		title: 'MOISTURIZING SILICONE MILK SEA & POOL - LEAVE-IN',
 		descricao: 'Its special formula rich in nutrients, vitamins, amino acids and silicones, is indicated for the protection of swimming  in the sea and  pool.  Protects the hair from chlorine, salt water and the sun, leaving your hair soft, with intense shine and easy to comb.',
-		filtros: ['HomeCare'],
-		versões: 'Version: Fl.oz 10,14 – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item32],
 		imagem: item32
-		// imagem: '/img/produtos/produto32.jpg',
 	},
 	{
 		id: 44, // auto increment
 		idproduto: 33,
 		title: 'POWER ANTI-FRIZZ - LEAVE-IN',
 		descricao: 'Power Anti-Frizz Facinnius is indicated to be applied before brushing, as it facilitates hair modeling, making the process up to three times faster than usual.  With silicone, keratin and tamariliz, a protective film is created around the  hair that guarantees hair mass replacement and efficient  heat protection, leaving the hair  with intense shine, silky and hydrated.',
-		filtros: ['HomeCare'],
-		versões: 'Version: Fl.oz 10,14 – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item33],
 		imagem: item33
-		// imagem: '/img/produtos/produto33.jpg',
 	},
 	{
 		id: 45, // auto increment
 		idproduto: 34,
 		title: 'REDUCER BIO ELIXIR - LEAVE-IN',
 		descricao: 'Reducer Bio Elixir Facinnius contains essential oils that act on the silkiness and hydration of the hair.  It has vitamins and nano-technological assets that replace proteins and lipids, leaving healthy hair hydrated and soft.',
-		filtros: ['HomeCare'],
-		versões: 'Version: Fl.oz 10,14 – Home Care',
+		filtros: ['HomeCare', 'Profissional'],
+		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item34],
 		imagem: item34
 		// imagem: '/img/produtos/produto34.jpg',
