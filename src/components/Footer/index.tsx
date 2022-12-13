@@ -1,18 +1,18 @@
-import Link from "next/link";
-import React from "react";
-import { useTranslation } from "react-i18next";
-import { RiFacebookFill, RiInstagramFill, RiYoutubeFill } from "react-icons/ri";
-import { IoLogoTiktok } from "react-icons/io5";
-import Image from "next/image";
-import logoFacinnius from "../../../public/images/LOGOS_FACINNIUS_REGISTRADOS.png";
-import i18n from "../../i18n";
+import Link from 'next/link'
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import { RiFacebookFill, RiInstagramFill, RiYoutubeFill } from 'react-icons/ri'
+import { IoLogoTiktok } from 'react-icons/io5'
+import Image from 'next/image'
+import logoFacinnius from '../../../public/images/LOGOS_FACINNIUS_REGISTRADOS.png'
+import i18n from '../../i18n'
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   function logoSize() {
-    if (typeof window !== "undefined") {
-      return window.innerWidth;
+    if (typeof window !== 'undefined') {
+      return window.innerWidth
     }
   }
 
@@ -23,11 +23,11 @@ export default function Footer() {
           <Link href="/" className="nav__logo">
             <a
               style={{
-                display: "flex",
-                alignItems: "center",
-                justifyItems: "center",
-                marginLeft: "-10px",
-                marginBottom: "8px",
+                display: 'flex',
+                alignItems: 'center',
+                justifyItems: 'center',
+                marginLeft: '-10px',
+                marginBottom: '8px'
               }}
             >
               <Image
@@ -40,49 +40,49 @@ export default function Footer() {
           </Link>
 
           <p
-            className="footer__description text_center"
-            dangerouslySetInnerHTML={{ __html: t("home_footer_descricao") }}
+            className="footer__description footer__justify"
+            dangerouslySetInnerHTML={{ __html: t('home_footer_descricao') }}
           />
         </div>
 
         <div className="footer__content">
           <div className="flex_center">
             <h3 className="footer__title">
-              {t("home_footer_companhia_titulo")}
+              {t('home_footer_companhia_titulo')}
             </h3>
 
             <ul className="footer__links text_center">
               <li>
                 <Link href="/lista-produtos" className="footer__link">
                   <a className="footer__link">
-                    {t("home_footer_companhia_produtos")}
+                    {t('home_footer_companhia_produtos')}
                   </a>
                 </Link>
               </li>
               <li>
                 <Link
-                  href={i18n.language === "en" ? "/en/facinnius" : "/facinnius"}
+                  href={i18n.language === 'en' ? '/en/facinnius' : '/facinnius'}
                   className="footer__link"
                 >
                   <a className="footer__link">
-                    {t("home_footer_companhia_sobre")}
+                    {t('home_footer_companhia_sobre')}
                   </a>
                 </Link>
               </li>
               <li>
                 <Link
-                  href={i18n.language === "en" ? "/en/locais" : "/locais"}
+                  href={i18n.language === 'en' ? '/en/locais' : '/locais'}
                   className="footer__link"
                 >
                   <a className="footer__link">
-                    {t("home_footer_companhia_locais")}
+                    {t('home_footer_companhia_locais')}
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/contato" className="footer__link">
                   <a className="footer__link">
-                    {t("home_footer_companhia_contato")}
+                    {t('home_footer_companhia_contato')}
                   </a>
                 </Link>
               </li>
@@ -91,7 +91,7 @@ export default function Footer() {
 
           <div className="flex_center">
             <h3 className="footer__title">
-              {t("home_footer_localizacao_titulo")}
+              {t('home_footer_localizacao_titulo')}
             </h3>
 
             <p className="footer__information text_center">
@@ -99,18 +99,18 @@ export default function Footer() {
               Parque Capuava - Santo André/SP
             </p>
 
-            <p className="footer__information" style={{ marginTop: "10px" }}>
+            <p className="footer__information" style={{ marginTop: '10px' }}>
               CEP 09270-190
             </p>
 
-            <p className="footer__information" style={{ marginTop: "10px" }}>
+            <p className="footer__information" style={{ marginTop: '10px' }}>
               CNPJ 20.712.759/0001-04
             </p>
           </div>
 
           <div className=" center">
             <h3 className="footer__title text_center">
-              {t("home_footer_redes_titulo")}
+              {t('home_footer_redes_titulo')}
             </h3>
 
             <ul className="footer__social">
@@ -121,7 +121,7 @@ export default function Footer() {
                 className="footer__social-link"
               >
                 <i className="ri-facebook-fill">
-                  <RiFacebookFill  color="C59B35"/>
+                  <RiFacebookFill color="C59B35" />
                 </i>
               </a>
               <a
@@ -164,18 +164,13 @@ export default function Footer() {
       <div className="footer__info container">
         <div className="footer__privacy">
           <p
-            style={{ textAlign: "center", maxWidth: "80ch" }}
-            dangerouslySetInnerHTML={{ __html: t("home_footer_politica") }}
+            style={{ textAlign: 'center', maxWidth: '80ch' }}
+            dangerouslySetInnerHTML={{ __html: t('home_footer_politica') }}
           />
         </div>
         <span className="footer__copy">
-          <Link
-          href={'https://m10web.com.br'}
-          target='_blank'
-          >
-            <a
-            target={'_blank'}
-            >
+          <Link href={'https://m10web.com.br'} target="_blank">
+            <a target={'_blank'}>
               Copyright &#169; - Desenvolvido por <strong>M10web</strong>
             </a>
           </Link>
@@ -186,5 +181,5 @@ export default function Footer() {
         </Link> */}
       </div>
     </footer>
-  );
+  )
 }

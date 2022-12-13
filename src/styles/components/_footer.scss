@@ -10,6 +10,10 @@
         display: inline-block;
         margin-bottom: .75rem;
     }
+    &__justify{
+        text-align: justify;
+        max-width: 200px;
+    }
     &__content,
     &__links{
         display: grid;

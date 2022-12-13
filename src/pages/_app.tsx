@@ -1,15 +1,15 @@
-import { AppProps } from "next/app";
-import "../styles/styles.scss";
-import { useRouter } from "next/router";
-import { ToastContainer } from "react-toastify";
-import i18n from "../i18n";
-import Head from "next/head";
-import ModalCookies from "../components/ModalCookies";
+import { AppProps } from 'next/app'
+import '../styles/styles.scss'
+import { useRouter } from 'next/router'
+import { ToastContainer } from 'react-toastify'
+import i18n from '../i18n'
+import Head from 'next/head'
+import ModalCookies from '../components/ModalCookies'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const router = useRouter();
+  const router = useRouter()
   if (router.locale) {
-    i18n.changeLanguage(router.locale);
+    i18n.changeLanguage(router.locale)
   }
 
   return (
@@ -19,10 +19,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Component {...pageProps} />
       <ToastContainer />
-      <ModalCookies/>
-
+      <ModalCookies />
     </>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp
