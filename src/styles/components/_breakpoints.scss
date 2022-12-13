@@ -194,6 +194,13 @@
     
 
     .nav{
+
+        a{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 2px;
+            align-items: center;
+        }
         height: calc(var(--header-height) + 1.5rem);
 
         &__menu{
@@ -219,8 +226,14 @@
     }
 
     .active-link{
-        color: var(--title-color);
-        text-decoration: line-through;
+        color: rgb(211, 140, 34);
+        font-weight: 500;
+    }
+
+    .divCircle{
+        height: 1px;
+        width: 100%;
+        background-color: rgb(211, 140, 34);
     }
     
     .change-theme{
