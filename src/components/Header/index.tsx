@@ -57,12 +57,7 @@ export default function Header() {
             </a>
           </Link>
 
-          <div
-            className={`nav__menu nav_divDesktop ${
-              hiddenMenuMobile && 'nav__hiddenDiv'
-            }`}
-            id="nav-menu"
-          >
+          <div className={`nav__menu nav__divDesktop`} id="nav-menu">
             <ul className="nav__list ">
               <li
                 className={`nav__item ${
