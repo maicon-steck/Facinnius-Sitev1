@@ -5,10 +5,12 @@ import logoFacinnius from '../../../public/images/LOGOS_FACINNIUS_REGISTRADOS.pn
 import Image from 'next/image'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
+import { CloseIcon, HamburgerIcon } from '../../../public/icons'
 
 export default function Header() {
   const router = useRouter()
   const [menuFixed, setMenuFixed] = useState<boolean>(false)
+  const [hiddenMenuMobile, setHiddenMenuMobile] = useState<boolean>(true)
   const { t } = useTranslation()
 
   useEffect(() => {
@@ -55,8 +57,13 @@ export default function Header() {
             </a>
           </Link>
 
-          <div className="nav__menu" id="nav-menu">
-            <ul className="nav__list">
+          <div
+            className={`nav__menu nav_divDesktop ${
+              hiddenMenuMobile && 'nav__hiddenDiv'
+            }`}
+            id="nav-menu"
+          >
+            <ul className="nav__list ">
               <li
                 className={`nav__item ${
                   router.pathname === '/' ? 'active-link' : ''
@@ -149,9 +156,122 @@ export default function Header() {
             </ul>
           </div>
 
-          <i className="ri-moon-line change-theme" id="theme-button">
-            <LanguagesSwitch />
-          </i>
+          <div
+            className={`nav__menu nav__divMobile ${
+              hiddenMenuMobile && 'nav__hiddenDiv'
+            }`}
+            id="nav-menu"
+          >
+            <ul className="nav__list ">
+              <li
+                className={`nav__item ${
+                  router.pathname === '/' ? 'active-link' : ''
+                }`}
+              >
+                <Link href="/" className="nav__link">
+                  <a>
+                    <i className="ri-home-line"></i>
+                    <div
+                      className={` ${
+                        router.pathname === '/' ? 'divCircle' : ''
+                      }`}
+                    ></div>
+                    <span>Home</span>
+                  </a>
+                </Link>
+              </li>
+
+              <li
+                className={`nav__item ${
+                  router.pathname === '/facinnius' ? 'active-link' : ''
+                }`}
+              >
+                <Link href="/facinnius" className="nav__link ">
+                  <a>
+                    <i className="ri-home-line"></i>
+                    <div
+                      className={` ${
+                        router.pathname === '/facinnius' ? 'divCircle' : ''
+                      }`}
+                    ></div>
+                    <span>Facinnius</span>
+                  </a>
+                </Link>
+              </li>
+
+              <li
+                className={`nav__item ${
+                  router.pathname === '/lista-produtos' ? 'active-link' : ''
+                }`}
+              >
+                <Link href="/lista-produtos" className="nav__link">
+                  <a>
+                    <i className="ri-price-tag-3-line"></i>
+                    <div
+                      className={` ${
+                        router.pathname === '/lista-produtos' ? 'divCircle' : ''
+                      }`}
+                    ></div>
+                    <span>{t('home_heade_produtos')}</span>
+                  </a>
+                </Link>
+              </li>
+
+              <li
+                className={`nav__item ${
+                  router.pathname === '/locais' ? 'active-link' : ''
+                }`}
+              >
+                <Link href="/locais" className="nav__link">
+                  <a>
+                    <i className="ri-compass-line"></i>
+                    <div
+                      className={` ${
+                        router.pathname === '/locais' ? 'divCircle' : ''
+                      }`}
+                    ></div>
+                    <span>{t('home_header_locais')}</span>
+                  </a>
+                </Link>
+              </li>
+
+              <li
+                className={`nav__item ${
+                  router.pathname === '/contato' ? 'active-link' : ''
+                }`}
+              >
+                <Link href="/contato" className="nav__link">
+                  <a>
+                    <i className="ri-t-shirt-line"></i>
+                    <div
+                      className={` ${
+                        router.pathname === '/contato' ? 'divCircle' : ''
+                      }`}
+                    ></div>
+                    <span>{t('home_header_contato')}</span>
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
+            <i className="ri-moon-line change-theme" id="theme-button">
+              <LanguagesSwitch />
+            </i>
+            <button
+              className="nav__buttonHandleMenu"
+              onClick={() => {
+                setHiddenMenuMobile(!hiddenMenuMobile)
+              }}
+            >
+              {hiddenMenuMobile ? (
+                <HamburgerIcon size={30} color={'var(--cor-p2)'} />
+              ) : (
+                <CloseIcon size={30} color={'var(--cor-p2)'} />
+              )}
+            </button>
+          </div>
         </nav>
         <div className="elementLine"></div>
       </header>

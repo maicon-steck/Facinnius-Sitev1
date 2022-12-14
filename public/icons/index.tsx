@@ -30,3 +30,37 @@ export const WppIcon = ({ color = '#069CD1', size = 18 }: any) => (
     />
   </svg>
 )
+
+export const HamburgerIcon = ({ color = '#069CD1', size = 18 }: any) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 48 48"
+  >
+    <path
+      fill="none"
+      stroke={color}
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="4"
+      d="M7.95 11.95h32m-32 12h32m-32 12h32"
+    />
+  </svg>
+)
+
+export const CloseIcon = ({ color = '#069CD1', size = 18 }: any) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+  >
+    <path
+      fill={color}
+      d="M13.46 12L19 17.54V19h-1.46L12 13.46L6.46 19H5v-1.46L10.54 12L5 6.46V5h1.46L12 10.54L17.54 5H19v1.46L13.46 12Z"
+    />
+  </svg>
+)
