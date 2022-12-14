@@ -19,7 +19,7 @@ export default function Products() {
               className="section__title"
             />
 
-            <div className="quality__content grid">
+            <div className="quality__content__noMargin grid">
               <div className="quality__images">
                 <Image
                   src={FacinniusImg}

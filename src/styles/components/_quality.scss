@@ -82,6 +82,12 @@
 
   &__content {
     row-gap: 2.5rem;
+
+    &__noMargin{
+      @media(max-width: 800px){
+        margin-top: 0rem
+      }
+    }
     @media(max-width: 800px){
       margin-top: 4.5rem;
     }
