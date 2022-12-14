@@ -70,9 +70,10 @@ export default function Products() {
             className="flex_center container"
             style={{ marginBottom: '30px' }}
           >
-            <h2 className="container text_slogan">
-              Se encante, se permita, seja <span>FACINNIUS.</span>
-            </h2>
+            <h2
+              className="container text_slogan"
+              dangerouslySetInnerHTML={{ __html: t('facinnius_slogan') }}
+            />
           </div>
         </section>
 
