@@ -282,7 +282,8 @@ export default function Products({ productEn, productBr }) {
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      flexDirection: 'column'
+                      flexDirection: 'column',
+                      backgroundColor: 'transparent'
                     }}
                   >
                     <CardItem
