@@ -15,8 +15,9 @@ export default function Products() {
         <section className="quality section" id="premium">
           <div className="quality__container container">
             <h2
+              style={{ marginTop: '20px' }}
               dangerouslySetInnerHTML={{ __html: t('sobre_titulo') }}
-              className="section__title"
+              className="section__titleSpecialty"
             />
 
             <div className="quality__content__noMargin grid">
