@@ -190,8 +190,8 @@ export const ProdutosBrData = [
 		idproduto: 6,
 		title: 'SHAMPOO INFINITY ONE GOLD',
 		descricao: 'Contém blend de aminoácidos queratina, nutrientes e proteínas que proporciona benefícios como brilho hidratação, sedosidade, contribuindo no controle de volume e frizz. INDICADO PARA CABELOS DANIFICADOS.',
-		filtros: ['Profissional', 'HomeCare'],
-		versões: 'Versão: 1L - Home Care/Profissional',
+		filtros: ['Profissional'],
+		versões: 'Versão: 1L - Profissional',
 		colecao: [item6],
 		imagem: item6
 	},

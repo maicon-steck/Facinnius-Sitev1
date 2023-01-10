@@ -200,8 +200,8 @@ export const ProdutosEnData = [
 		idproduto: 6,
 		title: 'INFINITY ONE GOLD SHAMPOO',
 		descricao: 'It contains a blend of keratin amino acids, nutrients and proteins that provide benefits such as shine, hydration, silkiness, helping to control volume and frizz.',
-		filtros: ['Profissional', 'HomeCare'],
-		versões: 'Version: Fl.oz 33,81 - Home Care/Professional',
+		filtros: ['Profissional'],
+		versões: 'Version: Fl.oz 33,81 - Professional',
 		colecao: [item6],
 		imagem: item6
 		// imagem: '/img/produtos/produto6.jpg',
