@@ -389,7 +389,7 @@ export const ProdutosEnData = [
 		idproduto: 19,
 		title: 'SHAMPOO AND CONDITIONER - RECOVERY CUPUAÇU',
 		descricao: 'Ideal for chemically treated hair, Recovery Cupuaçu Facinnius has Biorestore and Poliquartenium 10, ingredients that moisturize, condition and repair damaged hair. It can be used after relaxation and discoloration, helping to rebuild the hair fiber.',
-		filtros: ['HomeCare', 'Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item19],
 		imagem: item19
@@ -402,7 +402,7 @@ export const ProdutosEnData = [
 		idproduto: 20,
 		title: 'KIT EFFECT LISS',
 		descricao: 'The Facinnius effect liss kit promotes a prolonged smooth effect for the hair. It has high molecular nano technology ideal for hair with progressive and chemically treated. Its formula seals the hair cuticles, deeply repairing the hair fiber, in addition to controlling the volume and aligning the hair.',
-		filtros: ['Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Professional',
 		colecao: [item20],
 		imagem: item20
@@ -415,7 +415,7 @@ export const ProdutosEnData = [
 		idproduto: 21,
 		title: 'SHAMPOO AND CONDITIONER - DETOX REFRESH',
 		descricao: 'With a detoxifying formula, Detox Refresh Facinnius promotes an anti-pollution action, leaving a pleasant sensation of freshness and lightness. It can be used daily to balance the oiliness of the hair and scalp.',
-		filtros: ['HomeCare', 'Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item21],
 		imagem: item21
@@ -428,7 +428,7 @@ export const ProdutosEnData = [
 		idproduto: 22,
 		title: 'SHAMPOO AND CONDITIONER - INFINITY ONE',
 		descricao: 'The Infinity One Facinnius line has an exclusive formula composed of proteins and structural amino acids (serine, glutamic acid and cysteine), performing biomimetic repair. Its main asset ReparAge penetrates deeply into the hair fiber promoting the increase in the diameter of the strands with prolonged use of the product. With the Pro Filter effect that repairs the natural aging of the strands leaving them as new.',
-		filtros: ['HomeCare', 'Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item22],
 		imagem: item22
@@ -441,7 +441,7 @@ export const ProdutosEnData = [
 		idproduto: 23,
 		title: 'SHAMPOO AND CONDITIONER - INFINITY REPAIR',
 		descricao: 'The Infinity Repair Facinnis line has an exclusive formula with 3 essential proteins (wheat, milk and silk), which attributes benefits such as strength improvement, volume increase and conditioning. The 3 joints combined with a formulation rich in ingredients that restore the hydration of the wires., indispensable for those who want shiny, healthy and soft hair.',
-		filtros: ['HomeCare', 'Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Version: Fl.oz 10,14 – Home Care/Professional',
 		colecao: [item23],
 		imagem: item23
