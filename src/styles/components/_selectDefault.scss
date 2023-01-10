@@ -12,6 +12,8 @@
     margin-bottom: 5px;
   }
 
+  
+
   .contentSelect {
     width: 100%;
     height: fit-content;
@@ -46,10 +48,9 @@
     &::placeholder {
       color: #cccccc;
     }
-    &:focus-visible {
-      z-index: 1;
-      border-color: rgb(49, 130, 206);
-      box-shadow: rgb(49 130 206) 0px 0px 0px 1px;
+    
+    select:focus>option:hover {
+      background-color: #f00 !important;
     }
 
    
