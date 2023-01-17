@@ -190,8 +190,8 @@ export const ProdutosBrData = [
 		idproduto: 6,
 		title: 'SHAMPOO INFINITY ONE GOLD',
 		descricao: 'Contém blend de aminoácidos queratina, nutrientes e proteínas que proporciona benefícios como brilho hidratação, sedosidade, contribuindo no controle de volume e frizz. INDICADO PARA CABELOS DANIFICADOS.',
-		filtros: ['Profissional', 'HomeCare'],
-		versões: 'Versão: 1L - Home Care/Profissional',
+		filtros: ['Profissional'],
+		versões: 'Versão: 1L - Profissional',
 		colecao: [item6],
 		imagem: item6
 	},
@@ -366,7 +366,7 @@ export const ProdutosBrData = [
 		idproduto: 19,
 		title: 'SHAMPOO E CONDICIONADOR - RECOVERY CUPUAÇU',
 		descricao: 'Ideal para cabelos quimicamente tratados, o Recovery Cupuaçu Facinnius possui Biorestore e Poliquarternium 10, ingredientes que hidratam, condicionam e reparam os cabelos danificados. Pode ser utilizado após o relaxamento e descoloração. Ajudando a reconstrução da fibra capilar. INDICADO PARA TODOS OS TIPOS DE CABELOS.',
-		filtros: ['HomeCare', 'Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ML – Home Care/Profissional',
 		colecao: [item19],
 		imagem: item19
@@ -378,7 +378,7 @@ export const ProdutosBrData = [
 		idproduto: 20,
 		title: 'KIT EFFECT LISS',
 		descricao: 'O kit Effect Liss Facinnius promove um efeito liso prolongado para os cabelos. Possui alta tecnologia nano molecular ideal para cabelos com progressivas e quimicamente tratados. Sua fórmula sela as cutículas dos fios reparando profundamente a fibra capilar, além de controlar o volume e alinhar os fios. INDICADO PARA PÓS PROGRESSIVA.',
-		filtros: ['Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ML – Profissional',
 		colecao: [item20],
 		imagem: item20
@@ -390,7 +390,7 @@ export const ProdutosBrData = [
 		idproduto: 21,
 		title: 'SHAMPOO E CONDICIONADOR DETOX REFRESH',
 		descricao: 'Com fórmula desintoxicante, o Detox Refresh Facinnius promove uma ação antipoluição, deixando uma prazerosa sensação de frescor e leveza. Pode ser usado diariamente para equilibrar a oleosidade dos fios e couro cabeludo. INDICADO PARA CONTROLE DE OLEOSIDADE.',
-		filtros: ['HomeCare', 'Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ML – Home Care/Profissional',
 		colecao: [item21],
 		imagem: item21
@@ -402,7 +402,7 @@ export const ProdutosBrData = [
 		idproduto: 22,
 		title: 'SHAMPOO E CONDICIONADOR - INFINITY ONE',
 		descricao: 'A linha Infinity One Facinnius conta com fórmula exclusiva composta por proteínas e aminoácidos estruturais (Serina, Ácido Glutâmico e Cisteína) realizando a reparação biomimética. Seu ativo principal ReparAge penetra profundamente na fibra capilar promovendo o aumento de diâmetro dos fios com o uso prolongado do produto. Com efeito Pro Filter que repara o envelhecimento natural dos dios deixando-os como novos. INDICADO PARA CABELOS DANIFICADOS.',
-		filtros: ['HomeCare', 'Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ML – Home Care/Profissional',
 		colecao: [item22],
 		imagem: item22
@@ -414,7 +414,7 @@ export const ProdutosBrData = [
 		idproduto: 23,
 		title: 'SHAMPOO E CONDICIONADOR - INFINITY REPAIR',
 		descricao: 'A linha Infinity Repair Facinnius possui fórmula exclusiva contendo três proteínas essencias (Trigo, Leite e Seda) que atribui benefícios como melhora da força, aumento de volume e condicionamento. As três juntas, aliadas a uma formulação rica em ingredientes que devolvem a hidratação dos fios, indispensável para quem quer o cabelo saudável, brilhoso e macio. INDICADO PARA RECONSTRUÇÃO E REPOSIÇÃO DE MASSA.',
-		filtros: ['HomeCare', 'Profissional'],
+		filtros: ['HomeCare'],
 		versões: 'Versão: 300ML – Home Care/Profissional',
 		colecao: [item23],
 		imagem: item23
