@@ -48,9 +48,10 @@
     &::placeholder {
       color: #cccccc;
     }
-    
-    select:focus>option:hover {
-      background-color: #f00 !important;
+    &:focus-visible {
+      z-index: 1;
+      border-color: rgb(211, 140, 34);
+      box-shadow: rgb(211, 140, 34) 0px 0px 0px 1px;
     }
 
    

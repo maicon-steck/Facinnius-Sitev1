@@ -10,16 +10,16 @@
     "home_especialidades_text": "Special Products to Take Care of You!",
     "home_especialidades_button": "See more",
     "home_especialidades_item1_title": "Premium Lines",
-    "home_especialidades_item1_descricao": "Premium Product Lines Awaiting You",
+    "home_especialidades_item1_descricao": "Premium Products Lines Awaiting For You",
     "home_especialidades_item2_title": "Quality",
-    "home_especialidades_item2_descricao": "Enjoy and enjoy the best cosmetic products for you or your salon.",
+    "home_especialidades_item2_descricao": "Enjoy the best cosmetic products for you or your salon.",
     "home_especialidades_item3_title": "Technology",
-    "home_especialidades_item3_descricao": "State-of-the-art technology in all manufacturing processes.",
+    "home_especialidades_item3_descricao": " Cutting-edge tecnology in all manufacturing process.",
 
     "home_pdf_path": "Open full CATALOG",
 
-    "duvidas_titulo": "CLEAR YOUR DOUBTS,",
-    "duvidas_subtitulo": " WE ARE READY TO HELP YOU",
+    "duvidas_titulo": "You ask. We answer",
+    "duvidas_subtitulo": "",
 
     "home_linhas_produtos_title": "Product lines",
     "home_colecao_masculino": "Professional <br /> Line",
@@ -28,7 +28,7 @@
     "home_produtos": "Our Products",
     "home_blog_titulo": "Access our blog!",
     "home_blog_subtitulo": "Painless lock technique",
-    "home_blog_descricao": "New technique of painless <br />locks with high trend in <br /> the world of hairdressers.",
+    "home_blog_descricao": "New technique of painless <br >locks with high trend in <br /> the world of hairdressers.",
 
     "home_footer_descricao": "New technique of painless locks with high trend in the world of hairdressers.",
     "home_footer_companhia_titulo": "Company",
@@ -113,7 +113,7 @@
     "contato_form_email": "E-mail",
     "contato_form_regiao": "Region",
     "contato_form_cabeleireiro": "You are hairdresser",
-    "contato_form_cabeleireiro_option1": "Si",
+    "contato_form_cabeleireiro_option1": "Yes",
     "contato_form_cabeleireiro_option2": "No",
     "contato_form_mensagem": "Leave your message",
     "contato_form_categoria": "Category",
@@ -130,8 +130,8 @@
     "contato_form_enviar": "Submit",
 
     "sobre_titulo": "ABOUT <h6 class='titulo_facinnius'>Facinnius</h6>",
-    "sobre_descrição1": "Founded in 1998, the company began to have a new management in 2014, thus undergoing reformulations in packaging and formulas. Further improving the quality and excellence of products.",
-    "sobre_descrição2": "New technique of painless <br />locks with high trend in <br /> the world of hairdressers.",
+    "sobre_descrição1": "Founded in 1998, the company began to have a new management in 2014, thus undergoing reformulations in packaging and further. Further improving the quality and excellence of products.",
+    "sobre_descrição2": "New technique of painless locks with high trend in the world of hairdressers.",
     "sobre_descrição3": "We have a qualified team of representatives, who serve exclusively beauty professionals in their establishments.",
     "sobre_descrição4": "With frequent launches that accompany the world market, Facinnius provides in its lines products with exclusive characteristics that present excellent results and satisfaction of its customers.",
 
@@ -147,6 +147,6 @@
     "profissional_upperCase": "PROFESSIONAL",
     "homeCare_upperCase": "HOME CARE",
 
-    "facinnius_slogan": "be enchanted, allow yourself, be<span> Facinnius</span>"
+    "facinnius_slogan": " Enchant yourself, permit yourself, be<span> Facinnius</span></span>"
   }
 }

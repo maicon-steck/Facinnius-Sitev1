@@ -7,6 +7,7 @@ import professional from '../../../public/images/professional.png'
 import homecare from '../../../public/images/homecare.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import i18n from '../../i18n'
 
 export default function Collection() {
   const { t } = useTranslation()
@@ -24,15 +25,29 @@ export default function Collection() {
         <Link href={'/lista-produtos?linha=profissinal'}>
           <a>
             <Image src={professional} layout="fill" objectFit="cover" />
-            <div className="collection__line__lineNameLeft">
-              <h3 className="collection__line__text">
-                {t('line_upperCase')}
-                <span className="collection__line__textBold">
-                  {' '}
+            {i18n.language == 'ptbr' && (
+              <div className="collection__line__lineNameLeft">
+                <h3 className="collection__line__text">
+                  {t('line_upperCase')}
+                  <span className="collection__line__textBold">
+                    {' '}
+                    {t('profissional_upperCase')}
+                  </span>
+                </h3>
+              </div>
+            )}
+            {i18n.language == 'en' && (
+              <div className="collection__line__lineNameLeft">
+                <h3 className="collection__line__textBold">
                   {t('profissional_upperCase')}
-                </span>
-              </h3>
-            </div>
+
+                  <span className="collection__line__text">
+                    {' '}
+                    {t('line_upperCase')}
+                  </span>
+                </h3>
+              </div>
+            )}
           </a>
         </Link>
       </div>
@@ -47,7 +62,7 @@ export default function Collection() {
             />
             <div className="collection__line__lineNameRight">
               <h3 className="collection__line__text">
-                {t('line_upperCase')}
+                {i18n.language === 'pt' && t('line_upperCase')}
                 <span className="collection__line__textBold">
                   {t('homeCare_upperCase')}
                 </span>
