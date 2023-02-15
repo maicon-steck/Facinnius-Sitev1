@@ -97,7 +97,7 @@ export const ProdutosBrData = [
     descricao:
       'Possui manteiga de cupuaçu, vitaminas A e E, que promovem equilíbrio hídrico, hidratação e crescimento saudável para os fios. A máscara Recovery Cupuaçu Facinnius é excelente para o tratamento de cabelos secos, frágeis e danificados por processos químicos, pois age  profundamente na cutícula revitalizando os fios. INDICADO PARA NUTRIÇÃO CAPILAR, PARA CABELOS SECOS, FRAGEIS E CABELOS DANIFICADOS POR QUIMICAS.',
     filtros: ['Profissional'],
-    versões: 'Versão: 1kg - Profissional',
+    versões: 'Versão: 3.5kg - Profissional',
     colecao: [item2_1],
     imagem: item2_1
   },
@@ -108,7 +108,7 @@ export const ProdutosBrData = [
     descricao:
       'Possui manteiga de cupuaçu, vitaminas A e E, que promovem equilíbrio hídrico, hidratação e crescimento saudável para os fios. A máscara Recovery Cupuaçu Facinnius é excelente para o tratamento de cabelos secos, frágeis e danificados por processos químicos, pois age  profundamente na cutícula revitalizando os fios. INDICADO PARA NUTRIÇÃO CAPILAR, PARA CABELOS SECOS, FRAGEIS E CABELOS DANIFICADOS POR QUIMICAS.',
     filtros: ['Profissional'],
-    versões: 'Versão: 3,5kg - Profissional',
+    versões: 'Versão: 1kg - Profissional',
     colecao: [item2_2],
     imagem: item2_2
   },
