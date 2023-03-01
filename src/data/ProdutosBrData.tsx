@@ -413,7 +413,7 @@ export const ProdutosBrData = [
     idproduto: 24,
     title: 'RECONSTRUÇÃO CAPILAR BIFÁSICO - INFINITY ONE',
     descricao:
-      'O Infinity One Facinnius é um excelente reconstrutor capilar com ação antioxidante que repara o desgaste e envelhecimento dos fios. Possui textura aveludada e deixa um toque de seda nos cabelos, mantendo-os livres de frizz. Contém filtro protetos UVA e UVB. Além  de ser um protetor térmico e solar, por conter 11 aminoácidos e proteínas vegetais hidrolisadas, também conta com uma tecnologia única, o uso contínuo traz reconstrução ao fio, pois os princípios ativos por ter muita afinidade com o fio, vão se sobrepondo e causando assim um aumento na espessura dos fios. INDICADO PARA RECONSTRUÇÃO, REPOSIÇÃO DE MASSA E PROTEÇÃO UVA/UVB.',
+      'O Infinity One Facinnius é um excelente reconstrutor capilar com ação antioxidante que repara o desgaste e envelhecimento dos fios. Possui textura aveludada e deixa um toque de seda nos cabelos, mantendo-os livres de frizz. Contém filtro protetores UVA e UVB. Além  de ser um protetor térmico e solar, por conter 11 aminoácidos e proteínas vegetais hidrolisadas, também conta com uma tecnologia única, o uso contínuo traz reconstrução ao fio, pois os princípios ativos por ter muita afinidade com o fio, vão se sobrepondo e causando assim um aumento na espessura dos fios. INDICADO PARA RECONSTRUÇÃO, REPOSIÇÃO DE MASSA E PROTEÇÃO UVA/UVB.',
     filtros: ['HomeCare', 'Profissional'],
     versões: 'Versão: 100ML – Home Care/Professional',
     colecao: [item24],
