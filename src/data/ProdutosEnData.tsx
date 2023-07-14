@@ -250,6 +250,51 @@ export const ProdutosEnData = [
   },
 
   {
+    id: 55, // auto increment
+    idproduto: 40,
+    title: 'SHAMPOO RECOVERY CUPUAÇU',
+    descricao:
+      'The FACINNIUS RECOVERY CUPUAÇU Shampoo has a special formula, making your hair light, loose, bringing back the natural shine.',
+    filtros: ['Profissional'],
+    versões: 'Version: Fl.oz 33,81 - Professional',
+    colecao: [item55],
+    imagem: item55
+  },
+  {
+    id: 56, // auto increment
+    idproduto: 41,
+    title: 'SHAMPOO ABSOLUT DIAMOND',
+    descricao:
+      'The Facinnius ABSOLUT DIAMOND Shampoo has a special formula, which strengthens your strands of hair and also provides your hair a diamond shine.',
+    filtros: ['Profissional'],
+    versões: 'Version: Fl.oz 33,81 - Professional',
+    colecao: [item56],
+    imagem: item56
+  },
+  {
+    id: 57, // auto increment
+    idproduto: 42,
+    title: 'SHAMPOO BIOTECH KERATRIX ',
+    descricao:
+      'The FACINNIUS BIOTECH KERATRIX Shampoo has a special formula that recovers the health of the strands of hair, making it soft, shiny, and easy to comb.',
+    filtros: ['Profissional'],
+    versões: 'Version: Fl.oz 33,81 - Professional',
+    colecao: [item57],
+    imagem: item57
+  },
+  {
+    id: 58, // auto increment
+    idproduto: 43,
+    title: 'SHAMPOO ULTIMATE STAGE',
+    descricao:
+      'The FACINNIUS ULTIMATE STAGE Shampoo has a special formula, ideal for dry hair and damaged by chemical processes.',
+    filtros: ['Profissional'],
+    versões: 'Version: Fl.oz 33,81 - Professional',
+    colecao: [item58],
+    imagem: item58
+  },
+
+  {
     id: 16, // auto increment
     idproduto: 10,
     title: 'REDUTOR DE VOLUME ILUMMINI',
@@ -448,7 +493,7 @@ export const ProdutosEnData = [
     idproduto: 24,
     title: 'HAIR RECONSTRUCTION BIPHASIC - INFINITY ONE',
     descricao:
-      'Infinity One Facinnius is an excellent hair rebuilder with antioxidant action that repairs the hair. It has a velvety texture and leaves a silky touch in the hair, keeping it frizz-free.  Contains UVA and UVB protective filters. In addition to being a thermal and sun protector, as it contains 11 amino acids and hydrolyzed vegetable proteins, it also has a unique technology, continuous use brings reconstruction to the hair, as the active principles, having a lot of affinity with the thread, overlap and cause thus an increase in the thickness of the hair.',
+      'Infinity One Facinnius is an excellent hair rebuilder with antioxidant action that repairs the hair. It has a velvety texture and leaves a silky touch in the hair, keeping it frizz-free.  Contains UVA and UVB protective filters. In addition to being a thermal and sun protector, as it contains 14 amino acids and hydrolyzed vegetable proteins, it also has a unique technology, continuous use brings reconstruction to the hair, as the active principles, having a lot of affinity with the thread, overlap and cause thus an increase in the thickness of the hair.',
     filtros: ['HomeCare', 'Profissional'],
     versões: 'Version: Fl.oz 3,84 – Home Care/Professioanl',
     colecao: [item24],
@@ -736,50 +781,7 @@ export const ProdutosEnData = [
 
 
 
-  {
-    id: 55, // auto increment
-    idproduto: 40,
-    title: 'SHAMPOO RECOVERY CUPUAÇU',
-    descricao:
-      'The FACINNIUS RECOVERY CUPUAÇU Shampoo has a special formula, making your hair light, loose, bringing back the natural shine.',
-    filtros: ['Profissional'],
-    versões: 'Version: Fl.oz 33,81 - Professional',
-    colecao: [item55],
-    imagem: item55
-  },
-  {
-    id: 56, // auto increment
-    idproduto: 41,
-    title: 'SHAMPOO ABSOLUT DIAMOND',
-    descricao:
-      'The Facinnius ABSOLUT DIAMOND Shampoo has a special formula, which strengthens your strands of hair and also provides your hair a diamond shine.',
-    filtros: ['Profissional'],
-    versões: 'Version: Fl.oz 33,81 - Professional',
-    colecao: [item56],
-    imagem: item56
-  },
-  {
-    id: 57, // auto increment
-    idproduto: 42,
-    title: 'SHAMPOO BIOTECH KERATRIX ',
-    descricao:
-      'The FACINNIUS BIOTECH KERATRIX Shampoo has a special formula that recovers the health of the strands of hair, making it soft, shiny, and easy to comb.',
-    filtros: ['Profissional'],
-    versões: 'Version: Fl.oz 33,81 - Professional',
-    colecao: [item57],
-    imagem: item57
-  },
-  {
-    id: 58, // auto increment
-    idproduto: 43,
-    title: 'SHAMPOO ULTIMATE STAGE',
-    descricao:
-      'The FACINNIUS ULTIMATE STAGE Shampoo has a special formula, ideal for dry hair and damaged by chemical processes.',
-    filtros: ['Profissional'],
-    versões: 'Version: Fl.oz 33,81 - Professional',
-    colecao: [item58],
-    imagem: item58
-  }
+
 
 
 
