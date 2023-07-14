@@ -259,6 +259,7 @@ export default function ProductsList({ productBr, productEn }) {
               )
             })}
           </div>
+
         </section>
         <Footer />
       </main>

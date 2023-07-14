@@ -54,6 +54,10 @@ import item29_1 from '../../public/images/item29_1.png'
 import item29_2 from '../../public/images/item29_2.png'
 import item30_1 from '../../public/images/item30_1.png'
 import item30_2 from '../../public/images/item30_2.png'
+import item55 from '../../public/images/item55.png'
+import item56 from '../../public/images/item56.png'
+import item57 from '../../public/images/item57.png'
+import item58 from '../../public/images/item58.png'
 
 export const ProdutosBrData = [
   {
@@ -683,5 +687,61 @@ export const ProdutosBrData = [
     versões: 'Versão: 5L - Profissional',
     colecao: [item39],
     imagem: item39
-  }
+  },
+
+
+
+
+
+
+
+
+  {
+    id: 30, // auto increment
+    idproduto: 40,
+    title: 'SHAMPOO RECOVERY CUPUAÇU',
+    descricao:
+      'O Shampoo RECOVERY CUPUAÇU FACINNIUS, possui fórmula especial, deixando seus cabelos leves, soltos, devolvendo o brilho natural.',
+    filtros: ['Profissional'],
+    versões: 'Versão: 1L - Profissional',
+    colecao: [item55],
+    imagem: item55
+  },
+  {
+    id: 56, // auto increment
+    idproduto: 41,
+    title: 'SHAMPOO ABSOLUT DIAMOND',
+    descricao:
+      'O Shampoo ABSOLUT DIAMOND Facinnius, possui fórmula especial, que fortalece seus fios além de proporcionar brilho diamantado para seus cabelos.',
+    filtros: ['Profissional'],
+    versões: 'Versão: 1L - Profissional',
+    colecao: [item56],
+    imagem: item56
+  },
+  {
+    id: 57, // auto increment
+    idproduto: 42,
+    title: 'SHAMPOO BIOTECH KERATRIX ',
+    descricao:
+      'O Shampoo BIOTECH KERATRIX FACINNIUS, possui fórmula especial, que recupera a saúde dos fios deixando-os macios, com brilho e fáceis de pentear',
+    filtros: ['Profissional'],
+    versões: 'Versão: 1L - Profissional',
+    colecao: [item57],
+    imagem: item57
+  },
+  {
+    id: 58, // auto increment
+    idproduto: 43,
+    title: 'SHAMPOO ULTIMATE STAGE',
+    descricao:
+      'O Shampoo ULTIMATE STAGE FACINNIUS, possui fórmula especial, ideal para cabelos ressecados e danificados por processos químicos.',
+    filtros: ['Profissional'],
+    versões: 'Versão: 1L - Profissional',
+    colecao: [item58],
+    imagem: item58
+  },
+
+
+
+
 ]

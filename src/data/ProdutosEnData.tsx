@@ -54,6 +54,11 @@ import item30_1 from '../../public/images/item30_1.png'
 import item28_2 from '../../public/images/item28_2.png'
 import item29_2 from '../../public/images/item29_2.png'
 import item30_2 from '../../public/images/item30_2.png'
+import item55 from '../../public/images/item55.png'
+import item56 from '../../public/images/item56.png'
+import item57 from '../../public/images/item57.png'
+import item58 from '../../public/images/item58.png'
+
 
 export const ProdutosEnData = [
   {
@@ -725,5 +730,57 @@ export const ProdutosEnData = [
     versões: 'Version: Fl.oz 169,07 - Professional',
     colecao: [item39],
     imagem: item39
+  },
+
+
+
+
+
+  {
+    id: 55, // auto increment
+    idproduto: 40,
+    title: 'SHAMPOO RECOVERY CUPUAÇU',
+    descricao:
+      'The FACINNIUS RECOVERY CUPUAÇU Shampoo has a special formula, making your hair light, loose, bringing back the natural shine.',
+    filtros: ['Profissional'],
+    versões: 'Version: Fl.oz 33,81 - Professional',
+    colecao: [item55],
+    imagem: item55
+  },
+  {
+    id: 56, // auto increment
+    idproduto: 41,
+    title: 'SHAMPOO ABSOLUT DIAMOND',
+    descricao:
+      'The Facinnius ABSOLUT DIAMOND Shampoo has a special formula, which strengthens your strands of hair and also provides your hair a diamond shine.',
+    filtros: ['Profissional'],
+    versões: 'Version: Fl.oz 33,81 - Professional',
+    colecao: [item56],
+    imagem: item56
+  },
+  {
+    id: 57, // auto increment
+    idproduto: 42,
+    title: 'SHAMPOO BIOTECH KERATRIX ',
+    descricao:
+      'The FACINNIUS BIOTECH KERATRIX Shampoo has a special formula that recovers the health of the strands of hair, making it soft, shiny, and easy to comb.',
+    filtros: ['Profissional'],
+    versões: 'Version: Fl.oz 33,81 - Professional',
+    colecao: [item57],
+    imagem: item57
+  },
+  {
+    id: 58, // auto increment
+    idproduto: 43,
+    title: 'SHAMPOO ULTIMATE STAGE',
+    descricao:
+      'The FACINNIUS ULTIMATE STAGE Shampoo has a special formula, ideal for dry hair and damaged by chemical processes.',
+    filtros: ['Profissional'],
+    versões: 'Version: Fl.oz 33,81 - Professional',
+    colecao: [item58],
+    imagem: item58
   }
+
+
+
 ]

@@ -72,7 +72,7 @@ export function CardItem({
                   height={350}
                   width={350}
                   src={row.src}
-                  alt="uma imagem"
+                  alt={`uma imagem ${row.src}`}
                   className="imageSlider"
                   style={{
                     margin: 'auto'

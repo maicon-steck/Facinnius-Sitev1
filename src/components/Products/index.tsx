@@ -69,6 +69,11 @@ import item38 from '../../../public/images/item38.png'
 import item38_1 from '../../../public/images/item38_1.png'
 import item39 from '../../../public/images/item39.png'
 
+import item55 from '../../../public/images/item55.png'
+import item56 from '../../../public/images/item56.png'
+import item57 from '../../../public/images/item57.png'
+import item58 from '../../../public/images/item58.png'
+
 import blog1 from '../../../public/images/blog_1.png'
 import blog2 from '../../../public/images/blog_2.png'
 
@@ -79,8 +84,6 @@ import Linha_homecare from '../../../public/images/linha_homecare.png'
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 import { CardItem } from '../CardItem'
 import Link from 'next/link'
-import { createDeflateRaw } from 'zlib'
-import { IconBase } from 'react-icons'
 
 // Import Swiper styles
 // import "swiper/css";
@@ -214,6 +217,11 @@ export default function Products({ productEn, productBr }) {
 
             <Image src={item38_1} alt="testeImage" className="products__img" />
             <Image src={item39} alt="testeImage" className="products__img" />
+
+            <Image src={item55} alt="testeImage" className="products__img" />
+            <Image src={item56} alt="testeImage" className="products__img" />
+            <Image src={item57} alt="testeImage" className="products__img" />
+            <Image src={item58} alt="testeImage" className="products__img" />
           </div>
 
           <Swiper
