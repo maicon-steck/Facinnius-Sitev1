@@ -24,6 +24,8 @@ export default function Blogs({ blogBr, blogEn }) {
     })
   }
 
+  
+
   return (
     <>
       <Header />
