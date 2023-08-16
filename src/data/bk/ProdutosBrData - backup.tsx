@@ -306,7 +306,7 @@ export const ProdutosBrData = [
     idproduto: 16,
     title: 'SHAMPOO E CONDICIONADOR - AMORA COM ROMÃ ',
     descricao:
-      'Ideal para cabelos mistos, proporciona hidratação e brilho intenso para os fios. Mantém os cabelos hidratados e repões as vitaminas da fibra. Possui ação antioxidante, preservando a sáude e estrutura dos cabelos. INDICADO PARA TODOS OS TIPOS DE CABELO.',
+      'Ideal para cabelos mistos, proporciona hidratação e brilho intenso para os fios. Mantém os cabelos hidratados e repões as vitaminas da fibra. Possui ação antioxidante, preservando a sáude e estrutura dos cabelos. INDICADO PARA TODOS OS TIPOS DE CABELOS.',
     filtros: ['HomeCare'],
     versões: 'Versão: 300ML – Home Care',
     colecao: [item16],
@@ -541,7 +541,7 @@ export const ProdutosBrData = [
     idproduto: 32,
     title: 'LEITE SILICONADO HIDRATANTE MAR E PISCINA - LEAVE-IN',
     descricao:
-      'Sua fórmula especial rica em nutrientes vitaminas, aminoácidos e silicones, é indicada para a proteção de banho de mar e piscina. Protege os fios do cloro, da água salgada e do sol, deixando seus cabelos macios, com brilho intenso e fáceis de pentear. INDICADO PARA TODOS OS TIPOS DE CABELO PROTEÇÃO MAXIMA UVA/UVB.',
+      'Sua fórmula especial rica em nutrientes vitaminas, aminoácidos e silicones, é indicada para a proteção de banho de mar e piscina. Protege os fios do cloro, da água salgada e do sol, deixando seus cabelos macios, com brilho intenso e fáceis de pentear. INDICADO PARA TODOS OS TIPOS DE CABELOS PROTEÇÃO MAXIMA UVA/UVB.',
     filtros: ['HomeCare'],
     versões: 'Versão: 300ml – Home Care',
     colecao: [item32],
