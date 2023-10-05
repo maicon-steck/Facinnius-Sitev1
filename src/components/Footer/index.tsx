@@ -80,7 +80,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/contato" className="footer__link">
+                <Link href="https://wa.me/5511945678190" className="footer__link">
                   <a className="footer__link">
                     {t('home_footer_companhia_contato')}
                   </a>

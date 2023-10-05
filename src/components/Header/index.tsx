@@ -133,15 +133,15 @@ export default function Header() {
 
               <li
                 className={`nav__item ${
-                  router.pathname === '/contato' ? 'active-link' : ''
+                  router.pathname === 'https://wa.me/5511945678190' ? 'active-link' : ''
                 }`}
               >
-                <Link href="/contato" className="nav__link">
+                <Link href="https://wa.me/5511945678190" className="nav__link">
                   <a>
                     <i className="ri-t-shirt-line"></i>
                     <div
                       className={` ${
-                        router.pathname === '/contato' ? 'divCircle' : ''
+                        router.pathname === 'https://wa.me/5511945678190' ? 'divCircle' : ''
                       }`}
                     ></div>
                     <span>{t('home_header_contato')}</span>
@@ -232,7 +232,7 @@ export default function Header() {
 
               <li
                 className={`nav__item ${
-                  router.pathname === '/contato' ? 'active-link' : ''
+                  router.pathname === 'https://wa.me/5511945678190' ? 'active-link' : ''
                 }`}
               >
                 <Link href="/contato" className="nav__link">
@@ -240,7 +240,7 @@ export default function Header() {
                     <i className="ri-t-shirt-line"></i>
                     <div
                       className={` ${
-                        router.pathname === '/contato' ? 'divCircle' : ''
+                        router.pathname === 'https://wa.me/5511945678190' ? 'divCircle' : ''
                       }`}
                     ></div>
                     <span>{t('home_header_contato')}</span>
