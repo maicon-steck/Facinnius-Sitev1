@@ -235,7 +235,7 @@ export default function Header() {
                   router.pathname === 'https://wa.me/5511945678190' ? 'active-link' : ''
                 }`}
               >
-                <Link href="/contato" className="nav__link">
+                <Link href="https://wa.me/5511945678190" className="nav__link">
                   <a>
                     <i className="ri-t-shirt-line"></i>
                     <div
